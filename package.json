@@ -1,0 +1,33 @@
+{
+  "name": "employment-visualization",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tsparticles/slim": "^3.3.0",
+    "@tsparticles/vue3": "^3.0.0",
+    "animejs": "^3.2.2",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.0-alpha1",
+    "bootstrap-icons": "^1.11.3",
+    "echarts": "^5.5.0",
+    "jquery": "^3.7.1",
+    "JSON": "^1.0.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "qs": "^6.11.2",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  }
+}
