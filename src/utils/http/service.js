@@ -1,4 +1,4 @@
-import axiosInstance from "./instance";
+import axiosInstance from "./instance.js";
 
 const get = (url, params) => {
     return axiosInstance.get(url);

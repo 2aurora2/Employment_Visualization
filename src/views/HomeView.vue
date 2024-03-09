@@ -1,12 +1,9 @@
 <template>
-  <h1>
-    首页
-  </h1>
+  <div class="container justify-content-center">
+    <div class="row text-center"><h2>首页</h2></div>
+  </div>
 </template>
 
 <script setup>
-import {useUserStore} from '@/store/modules/useUserStore.js'
 
-// 先创建实例对象再使用
-const userStore = useUserStore();
 </script>

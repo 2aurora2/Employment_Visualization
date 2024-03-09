@@ -1,4 +1,4 @@
-import service from '@/http/service.js'
+import service from '@/utils/http/service.js'
 
 // POST接口写法
 export const testPostService = (data) => {
