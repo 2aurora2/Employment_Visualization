@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "@tsparticles/slim": "^3.3.0",
     "@tsparticles/vue3": "^3.0.0",
     "animejs": "^3.2.2",
@@ -17,6 +18,7 @@
     "bootstrap-icons": "^1.11.3",
     "echarts": "^5.5.0",
     "jquery": "^3.7.1",
+    "animejs": "^3.2.2",
     "JSON": "^1.0.0",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",

@@ -22,7 +22,7 @@ import FooterComp from "@/components/FooterComp.vue";
   flex-direction: column;
   min-height: 100vh;
   padding: 0;
-  background-image: url("@/assets/background.jpg");
+  background-image: url("@/assets/image/background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
