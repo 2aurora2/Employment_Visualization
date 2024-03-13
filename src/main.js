@@ -8,12 +8,4 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import Particles from "@tsparticles/vue3";
-import {loadSlim} from "@tsparticles/slim";
-
-
-createApp(App).use(router).use(store).use(Particles, {
-    init: async engine => {
-        await loadSlim(engine);
-    },
-}).mount('#app')
+createApp(App).use(router).use(store).mount('#app')

@@ -5,7 +5,20 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: HomeView
+        component: HomeView,
+        redirect: '/recruitment-info/difficulty-coefficient-analysis',
+        children: [
+            {
+                path: 'recruitment-info/difficulty-coefficient-analysis',
+                name: 'difficulty',
+                component: () => import('@/views/Recruitment/DifficultyAnalysisView.vue')
+            },
+            {
+                path: 'recruitment-info/keyword-heat-analysis',
+                name: 'keyword',
+                component: () => import('@/views/Recruitment/KeywordAnalysisView.vue')
+            }
+        ]
     },
     // 无匹配页面则跳转到404
     {
@@ -20,7 +33,7 @@ const router = createRouter(
         history: createWebHashHistory(),
         routes: routes,
         // 在导航栏中，为当前活动路由的菜单项添加类名
-        linkActiveClass: 'router-active',
+        linkActiveClass: 'is-active',
         // 跳转回到页面顶部
         scrollBehavior(to, from, savedPosition) {
             return {
