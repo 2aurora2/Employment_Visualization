@@ -125,7 +125,8 @@ onMounted(() => {
       name: '难度系数',
       splitArea: {
         show: true
-      }
+      },
+      max: 0.7
     },
     series: [
       {
@@ -145,6 +146,12 @@ onMounted(() => {
             ].join('<br/>');
           }
         }
+      },
+      {
+        name: '异常值',
+        type: 'scatter',
+        datasetIndex: 2,
+        symbolSize: 3
       }
     ]
   })

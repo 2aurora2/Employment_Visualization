@@ -27,6 +27,13 @@
             </svg>
             关键词热度分析
           </router-link>
+          <router-link class="sidebar-link" to="/404">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 5.25a3 3 0 0 1 3 3m3 0a6 6 0 0 1-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1 1 21.75 8.25Z"/>
+            </svg>
+            薪资水平分布分析
+          </router-link>
         </div>
       </div>
       <div class="side-wrapper">
@@ -51,14 +58,14 @@
         </div>
       </div>
       <div class="side-wrapper">
-        <div class="side-title">房价分析预测</div>
+        <div class="side-title">就业环境分析</div>
         <div class="side-menu">
           <a class="sidebar-link" href="#">
             <svg viewBox="0 0 24 24" fill="currentColor">
               <path
                   d="M13.338.833a2,2,0,0,0-2.676,0L0,10.429v10.4a3.2,3.2,0,0,0,3.2,3.2H20.8a3.2,3.2,0,0,0,3.2-3.2v-10.4ZM15,22.026H9V17a3,3,0,0,1,6,0Zm7-1.2a1.2,1.2,0,0,1-1.2,1.2H17V17A5,5,0,0,0,7,17v5.026H3.2a1.2,1.2,0,0,1-1.2-1.2V11.319l10-9,10,9Z"/>
             </svg>
-            主要城市房价变化
+            城市房价分析预测
           </a>
         </div>
       </div>
