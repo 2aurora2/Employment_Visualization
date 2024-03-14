@@ -125,8 +125,7 @@ onMounted(() => {
       name: '难度系数',
       splitArea: {
         show: true
-      },
-      max: 0.7
+      }
     },
     series: [
       {
@@ -148,10 +147,40 @@ onMounted(() => {
         }
       },
       {
-        name: '异常值',
-        type: 'scatter',
-        datasetIndex: 2,
-        symbolSize: 3
+        name: 'max',
+        type: 'line',
+        datasetIndex: 1,
+        markLine: {
+          silent: true,
+          symbol: 'circle',
+          lineStyle: {
+            type: 'dashed',
+            color: '#eff5a1',
+            width: 2,
+            cap: 'round'
+          },
+          data: [{
+            yAxis: 0.32
+          }]
+        }
+      },
+      {
+        name: 'min',
+        type: 'line',
+        datasetIndex: 1,
+        markLine: {
+          silent: true,
+          symbol: 'circle',
+          lineStyle: {
+            type: 'dashed',
+            color: '#eff5a1',
+            width: 2,
+            cap: 'round'
+          },
+          data: [{
+            yAxis: 0.15
+          }]
+        }
       }
     ]
   })

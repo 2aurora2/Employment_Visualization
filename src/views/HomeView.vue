@@ -46,7 +46,7 @@
             </svg>
             就业人数/GDP分析
           </a>
-          <a class="sidebar-link" href="#">
+          <router-link class="sidebar-link" href="#" to="/employment-unemployment-num-analysis/unemployment-num-analysis">
             <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path
                   d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10.011,10.011,0,0,1,12,22Z"/>
@@ -54,7 +54,7 @@
               <rect x="11" y="17" width="2" height="2" rx="1"/>
             </svg>
             失业人数分析
-          </a>
+          </router-link>
         </div>
       </div>
       <div class="side-wrapper">

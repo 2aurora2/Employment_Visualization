@@ -17,6 +17,11 @@ const routes = [
                 path: 'recruitment-info/keyword-heat-analysis',
                 name: 'keyword',
                 component: () => import('@/views/Recruitment/KeywordAnalysisView.vue')
+            },
+            {
+                path: 'employment-unemployment-num-analysis/unemployment-num-analysis',
+                name: 'unemployment',
+                component: () => import('@/views/Employment/UnemploymentAnalysisView.vue')
             }
         ]
     },
