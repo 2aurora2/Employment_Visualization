@@ -27,6 +27,11 @@ const routes = [
                 path: 'recruitment-info/salary-distribution-analysis',
                 name: 'salary',
                 component: () => import('@/views/Recruitment/SalaryAnalysisView.vue')
+            },
+            {
+                path: 'employment-unemployment-num-analysis/employment-num-analysis',
+                name: 'employment-gdp',
+                component: () => import('@/views/Employment/EmploymentGDPAnalysisView.vue')
             }
         ]
     },
