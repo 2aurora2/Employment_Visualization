@@ -10,10 +10,13 @@ import * as echarts from 'echarts';
 import {onMounted} from "vue";
 
 const employmentArray = Array.isArray(EmploymentExcel) ? EmploymentExcel : []
-const cityArray = employmentArray.map(item => item['城市'])
-const unemployment = employmentArray.map(item => item['城镇登记失业人员数（万人）'])
 
 onMounted(() => {
+  employmentArray.sort((a, b) => {
+    return a['城镇登记失业人员数（万人）'] - b['城镇登记失业人员数（万人）']
+  })
+  const cityArray = employmentArray.map(item => item['城市'])
+  const unemployment = employmentArray.map(item => item['城镇登记失业人员数（万人）'])
   const barEcharts = echarts.init(document.getElementById("main"))
   barEcharts.setOption({
     tooltip: {
