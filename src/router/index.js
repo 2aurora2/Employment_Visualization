@@ -6,8 +6,13 @@ const routes = [
         path: '/',
         name: 'Home',
         component: HomeView,
-        redirect: '/recruitment-info/difficulty-coefficient-analysis',
+        redirect: '/recruitment-info/job-recruitment-overall-analysis',
         children: [
+            {
+                path: 'recruitment-info/job-recruitment-overall-analysis',
+                name: 'overall',
+                component: () => import('@/views/Recruitment/OverallAnalysisView.vue')
+            },
             {
                 path: 'recruitment-info/difficulty-coefficient-analysis',
                 name: 'difficulty',
@@ -32,6 +37,11 @@ const routes = [
                 path: 'employment-unemployment-num-analysis/employment-num-analysis',
                 name: 'employment-gdp',
                 component: () => import('@/views/Employment/EmploymentGDPAnalysisView.vue')
+            },
+            {
+                path: 'employment-environment/house-price-analysis',
+                name: 'house',
+                component: () => import('@/views/Environment/HousePriceAnalysis.vue')
             }
         ]
     },

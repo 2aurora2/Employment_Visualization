@@ -85,13 +85,13 @@ const chinaMapping = (data, name, min, max, color) => {
     visualMap: {
       min: min,
       max: max,
-      left: 'left',
-      top: 'bottom',
+      left: 20,
+      bottom: 30,
       calculable: true,
       textStyle: {
         color: '#dcdcdc'
       },
-      text: [name, '']
+      text: [name, ''],
     },
     toolbox: {
       feature: {
