@@ -42,6 +42,11 @@ const routes = [
                 path: 'employment-environment/house-price-analysis',
                 name: 'house',
                 component: () => import('@/views/Environment/HousePriceAnalysis.vue')
+            },
+            {
+                path: 'employment-environment/medical-education-analysis',
+                name: 'medical-education',
+                component: () => import('@/views/Environment/MedicalEducationAnalysisView.vue')
             }
         ]
     },
