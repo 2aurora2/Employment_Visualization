@@ -70,7 +70,9 @@ onMounted(() => {
     dataZoom: [
       {
         type: 'slider',
-        show: true
+        show: true,
+        startValue: '南京',
+        endValue: '乌鲁木齐'
       },
       {
         type: 'inside'
