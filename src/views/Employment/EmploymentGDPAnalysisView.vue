@@ -38,6 +38,7 @@ const typeWatch = watch(curType, (newVal, oldVal) => {
     employment.forEach(city => {
       data.push({name: city['城市'], value: RegionGeo[city['城市']].concat(city['城镇私营和个体从业人员（万人）'])})
     })
+    console.log(data)
     echarts.registerMap('ChinaMap', ChinaMap)
     chinaMapping(data, '城镇私营和个体从业人数(万人)', 40, 882, '#88e799')
   }
