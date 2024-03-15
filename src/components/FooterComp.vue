@@ -12,7 +12,14 @@
           </div>
         </div>
         <div class="row justify-content-md-center" style="width: 100%">
-          <!--TODO: 轮播图-->
+          <div class="card-list col-2" v-for="(item, index) in option_list" :key="index">
+            <div class="card card-item">
+              <div class="card-body">
+                <h2 class="header">{{ item.name }}</h2>
+                <p class="content">{{ item.value }}</p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="row justify-content-md-center" style="width: 100%">
           <div class="col-12 col-md-4">
@@ -29,7 +36,28 @@
 </template>
 
 <script setup>
-
+const option_list = [
+  {
+    name: "后疫情时代",
+    value: "后疫情时代的经济变革对就业市场产生了巨大影响"
+  },
+  {
+    name: "生活成本",
+    value: "生活成本的不断上涨，房价和薪资水平也成为了去某个城市择业的一个重要的考虑因素"
+  },
+  {
+    name: "需求与供给不对称",
+    value: "招聘市场需求与供给不对称的情况，就业人数持续上升，岗位热门领域发生转移"
+  },
+  {
+    name: "就业区域差异",
+    value: "不同地区的产业、经济、文化等因素影响了就业机会和需求，导致就业区域性差异"
+  },
+  {
+    name: "公司裁员",
+    value: "大量公司的采取裁员与减少新员工招聘等措施"
+  },
+]
 </script>
 
 <style scoped lang="scss">
@@ -94,7 +122,7 @@ section {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-  height: 40em;
+  height: 42em;
 }
 
 .footer #container {
@@ -144,6 +172,27 @@ footer {
     color: rgb(118, 125, 125);
     font-family: 楷体, sans-serif;
     font-size: large;
+  }
+}
+
+.card-list {
+  display: flex;
+  margin: 10px;
+
+  .card-item {
+    width: 100%;
+    align-items: stretch;
+    background-color: #808191;
+
+    .header {
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    .content {
+      font-size: small;
+    }
   }
 }
 </style>
