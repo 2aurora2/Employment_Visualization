@@ -24,14 +24,19 @@ const routes = [
                 component: () => import('@/views/Recruitment/KeywordAnalysisView.vue')
             },
             {
-                path: 'employment-unemployment-num-analysis/unemployment-num-analysis',
-                name: 'unemployment',
-                component: () => import('@/views/Employment/UnemploymentAnalysisView.vue')
-            },
-            {
                 path: 'recruitment-info/salary-distribution-analysis',
                 name: 'salary',
                 component: () => import('@/views/Recruitment/SalaryAnalysisView.vue')
+            },
+            {
+                path: 'recruitment-info/salary-site-analysis',
+                name: 'site',
+                component: () => import('@/views/Recruitment/SiteSalaryAnalysisView.vue')
+            },
+            {
+                path: 'employment-unemployment-num-analysis/unemployment-num-analysis',
+                name: 'unemployment',
+                component: () => import('@/views/Employment/UnemploymentAnalysisView.vue')
             },
             {
                 path: 'employment-unemployment-num-analysis/employment-num-analysis',
