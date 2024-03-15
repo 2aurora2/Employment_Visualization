@@ -19,6 +19,7 @@ import * as echarts from 'echarts'
 import ChinaMap from '@/assets/data/中华人民共和国.json'
 import RegionGeo from '@/assets/data/chinaRegionGeoJson.json'
 import Employment from '@/assets/data/各城市就业与失业人数.json'
+
 import {onMounted, ref, shallowRef, watch} from "vue";
 
 const china = shallowRef()
@@ -150,7 +151,7 @@ const chinaMapping = (data, name, min, max, color) => {
           }
         },
         zlevel: 1,
-      },
+      }
     ]
   })
 }
