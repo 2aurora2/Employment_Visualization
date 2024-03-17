@@ -170,8 +170,8 @@ img {
   background-color: var(--theme-bg);
   opacity: 0.9;
   max-width: 1240px;
-  max-height: 850px;
-  height: 95vh;
+  max-height: 800px;
+  height: 90vh;
   display: flex;
   width: 100%;
   border-radius: 20px;
@@ -216,7 +216,7 @@ img {
       &:before {
         content: "";
         position: absolute;
-        top: -30px;
+        top: -40px;
         left: 0;
         background: var(--theme-bg);
         width: 200px;

@@ -1,9 +1,10 @@
 <template>
-  <div class="container chat-box">
+  <div class="container chat-box" id="scroll">
     <div class="msg-list">
-      <chat-right-item-comp message="你好，小锦！"></chat-right-item-comp>
-      <chat-left-item-comp
-          message="你好，我是就业小助手小锦！你有什么想问的吗？你好，我是就业小助手小锦！你有什么想问的吗？你好，我是就业小助手小锦！你有什么想问的吗？你好，我是就业小助手小锦！你有什么想问的吗？"></chat-left-item-comp>
+      <div v-for="(item,index) in messageList" :key="index">
+        <chat-right-item-comp :message="item.content" v-if="item.role==='user'"></chat-right-item-comp>
+        <chat-left-item-comp :message="item.content" v-else></chat-left-item-comp>
+      </div>
     </div>
     <chat-input-comp></chat-input-comp>
   </div>
@@ -13,6 +14,11 @@
 import ChatLeftItemComp from "@/components/ChatLeftItemComp.vue";
 import ChatRightItemComp from "@/components/ChatRightItemComp.vue";
 import ChatInputComp from "@/components/ChatInputComp.vue";
+import {useUserStore} from "@/store/modules/useUserStore.js";
+import {onMounted, ref} from "vue";
+
+const userStore = useUserStore()
+const messageList = ref(userStore.chatMessage)
 </script>
 
 <style scoped lang="scss">

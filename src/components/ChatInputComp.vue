@@ -1,8 +1,7 @@
 <template>
   <div class="container">
     <form class="search-form">
-      <input v-model="query" type="search" value=""
-             placeholder="按 Enter 发送" class="search-input">
+      <input v-model="query" type="search" placeholder="按 Enter 发送" class="search-input">
       <button @click="queryHandle" type="submit" class="search-button">
         <svg class="submit-button">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
@@ -22,10 +21,29 @@
 <script setup>
 import $ from 'jquery';
 import {onMounted, ref} from "vue";
+import TTSRecorder from "@/utils/common/SparkDeskApiUtil.js";
+import {useUserStore} from "@/store/modules/useUserStore.js";
+
+const userStore = useUserStore()
+const messageList = ref(userStore.chatMessage)
+
+let bigModel = new TTSRecorder()
 
 const query = ref('')
 const queryHandle = () => {
-  //
+  if (query.value.length === 0) {
+    alert("输入不可为空！")
+    return
+  }
+  messageList.value.push({
+    role: 'user',
+    content: query.value
+  })
+  query.value = ''
+
+  if (['init', 'endPlay', 'errorTTS'].indexOf(bigModel.status) > -1) {
+    bigModel.start()
+  }
 }
 
 onMounted(() => {
@@ -47,8 +65,9 @@ onMounted(() => {
 
 $color: #e24040;
 
-.container{
+.container {
   height: 50px;
+  padding-bottom: 10px;
 }
 
 .search-form {

@@ -13,6 +13,9 @@ export default defineConfig({
         alias: {
             // 配置 src 目录的别名为 @
             "@": pathSrc,
+        },
+        fallback: {
+            crypto: false
         }
     },
     server: {

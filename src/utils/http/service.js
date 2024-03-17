@@ -1,6 +1,6 @@
 import axiosInstance from "./instance.js";
 
-const get = (url, params) => {
+const get = (url) => {
     return axiosInstance.get(url);
 }
 

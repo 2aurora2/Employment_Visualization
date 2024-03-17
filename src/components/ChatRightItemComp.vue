@@ -29,7 +29,7 @@ const infoProps = defineProps({
 
 .message-box {
   display: flex;
-  width: fit-content;
+  width: 100%;
   align-items: flex-start;
   flex-direction: row-reverse;
   margin-left: auto;

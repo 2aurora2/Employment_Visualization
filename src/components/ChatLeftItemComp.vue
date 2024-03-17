@@ -44,7 +44,7 @@ const infoProps = defineProps({
 }
 
 .message {
-  max-width: 70%;
+  max-width: 80%;
   padding: 5px;
   word-wrap: break-word;
 }
