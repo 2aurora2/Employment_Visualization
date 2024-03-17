@@ -171,7 +171,7 @@ img {
   opacity: 0.9;
   max-width: 1240px;
   max-height: 800px;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   width: 100%;
   border-radius: 20px;
