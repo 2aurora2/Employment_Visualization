@@ -7,14 +7,15 @@ const pathSrc = path.resolve(__dirname, './src')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
-  resolve: {
-    alias: {
-      // 配置 src 目录的别名为 @
-      "@": pathSrc,
+    base: './',
+    plugins: [vue()],
+    resolve: {
+        alias: {
+            // 配置 src 目录的别名为 @
+            "@": pathSrc,
+        }
+    },
+    server: {
+        port: 8085
     }
-  },
-  server: {
-    port: 8085
-  }
 })

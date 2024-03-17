@@ -52,6 +52,11 @@ const routes = [
                 path: 'employment-environment/medical-education-analysis',
                 name: 'medical-education',
                 component: () => import('@/views/Environment/MedicalEducationAnalysisView.vue')
+            },
+            {
+                path: 'model-assistant',
+                name: 'assistant',
+                component: () => import('@/views/ModelAssistant/ModelAssistantView.vue')
             }
         ]
     },

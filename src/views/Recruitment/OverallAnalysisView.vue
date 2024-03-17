@@ -65,7 +65,6 @@ onMounted(() => {
 })
 
 const showBar = (sites, mean) => {
-  console.log(mean)
   const colName = type.value[Number(curType.value)]
   const originData = recruitIndoNotProcess.map(item => [item['site'], item[colName]])
   const types = Array.from(new Set(originData.map(item => item[1])))
