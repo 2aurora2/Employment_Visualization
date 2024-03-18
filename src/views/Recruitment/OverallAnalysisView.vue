@@ -4,7 +4,7 @@
       <div class="form-check form-check-inline" data-bs-theme="dark">
         <input class="form-check-input" type="radio" name="keyword" id="keyword1" value="0" checked
                v-model="curType">
-        <label class="form-check-label" for="keyword1" style="color: #dcdcdc">工作所需经验</label>
+        <label class="form-check-label" for="keyword1" style="color: #dcdcdc">所需学历</label>
       </div>
       <div class="form-check form-check-inline" data-bs-theme="dark">
         <input class="form-check-input" type="radio" name="keyword" id="keyword2" value="1" v-model="curType">
@@ -16,7 +16,7 @@
       </div>
       <div class="form-check form-check-inline" data-bs-theme="dark">
         <input class="form-check-input" type="radio" name="keyword" id="keyword4" value="3" v-model="curType">
-        <label class="form-check-label" for="keyword4" style="color: #dcdcdc">所需学历</label>
+        <label class="form-check-label" for="keyword4" style="color: #dcdcdc">工作所需经验</label>
       </div>
     </div>
     <div id="main" style="height: 650px;width: 1000px"></div>
@@ -30,7 +30,7 @@ import RecruitInfoNotProcess from '@/assets/data/招聘信息汇总.json'
 import RecruitInfoAfterProcess from '@/assets/data/招聘信息_afterProcessing.json'
 
 const curType = ref(0)
-const type = ref(['experience', 'attribute', 'nop', 'qualification'])
+const type = ref(['qualification', 'attribute', 'nop', 'experience'])
 const recruitIndoNotProcess = Array.isArray(RecruitInfoNotProcess) ? RecruitInfoNotProcess : []
 const recruitInfoAfterProcess = Array.isArray(RecruitInfoAfterProcess) ? RecruitInfoAfterProcess : []
 const dom = shallowRef()
@@ -107,27 +107,23 @@ const showBar = (sites, mean) => {
         yAxis: [{
           type: 'value',
           name: colName,
-          position: 'left',
-          alignTicks: true,
-          axisLine: {
+          splitLine: {
             show: true,
             lineStyle: {
-              color: '#dcdcdc'
+              type: 'dashed',
+              color: '#2c2a46'
             }
-          },
-          axisLabel: {
-            formatter: '{value}'
           }
         },
           {
             type: 'value',
             name: '平均薪资（元）',
             position: 'right',
-            alignTicks: true,
-            axisLine: {
+            splitLine: {
               show: true,
               lineStyle: {
-                color: '#dcdcdc'
+                type: 'dashed',
+                color: '#2c2a46'
               }
             },
             axisLabel: {

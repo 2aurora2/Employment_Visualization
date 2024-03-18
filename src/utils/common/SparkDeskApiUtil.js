@@ -119,7 +119,7 @@ export default class TTSRecorder {
         }
         messageList.value.push({
             role: 'assistant',
-            content: '请求中...'
+            content: '...'
         })
         // console.log(JSON.stringify(params))
         this.ttsWS.send(JSON.stringify(params))
@@ -134,6 +134,7 @@ export default class TTSRecorder {
     result(resultData) {
         let jsonData = JSON.parse(resultData)
         this.total_res = this.total_res + jsonData['payload']['choices']['text'][0]['content']
+        messageList.value[messageList.value.length - 1].content = this.total_res.replaceAll('*', '') + '...'
         // 提问失败
         if (jsonData.header.code !== 0) {
             alert(`提问失败: ${jsonData.header.code}:${jsonData.header.message}`)

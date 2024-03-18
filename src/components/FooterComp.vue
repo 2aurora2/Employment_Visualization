@@ -1,5 +1,5 @@
 <template>
-  <footer class="pt-5 pb-3 footer footer-dark bg-tertiary">
+  <footer class="pt-5 pb-3 footer footer-dark bg-tertiary" id="footer" @click="ExpandFooter">
     <div id="button"></div>
     <div id="container" style="justify-items: center; justify-content: center">
       <div id="cont"></div>
@@ -7,7 +7,8 @@
         <div class="row justify-content-md-center" style="width: 100%">
           <div class="col-12 col-md-4">
             <div class="pr-lg-5">
-              <h1 class="heading h6 text-uppercase font-weight-700 mb-3"><strong>锦绣前程——云端就业数据可视化开拓者</strong></h1>
+              <h1 class="heading h6 text-uppercase font-weight-700 mb-3">
+                <strong>锦绣前程——云端就业数据可视化开拓者</strong></h1>
             </div>
           </div>
         </div>
@@ -36,6 +37,8 @@
 </template>
 
 <script setup>
+import {ref} from "vue";
+
 const option_list = [
   {
     name: "后疫情时代",
@@ -58,6 +61,18 @@ const option_list = [
     value: "大量公司的采取裁员与减少新员工招聘等措施"
   },
 ]
+const isExpanded = ref(false)
+const ExpandFooter = () => {
+  isExpanded.value = !isExpanded.value
+  if (isExpanded) {
+    const dom = document.getElementById('footer')
+    if (isExpanded.value) {
+      dom.style.height = '42em';
+    } else {
+      dom.style.height = '2em';
+    }
+  }
+}
 </script>
 
 <style scoped lang="scss">
@@ -114,15 +129,6 @@ section {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
   z-index: 999;
-}
-
-.footer:hover {
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-  height: 42em;
 }
 
 .footer #container {
