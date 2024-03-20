@@ -68,6 +68,10 @@ $color: #e24040;
 .container {
   height: 50px;
   padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form {

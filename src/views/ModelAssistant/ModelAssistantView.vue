@@ -26,6 +26,9 @@ const messageList = ref(userStore.chatMessage)
   display: flex;
   flex-direction: column;
   position: relative;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 
   .msg-list {
     width: 100%;

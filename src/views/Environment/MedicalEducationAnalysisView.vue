@@ -25,17 +25,16 @@ onMounted(() => {
     title: {
       text: '各省份教育与卫生情况',
       textStyle: {
-        color: '#fff'
+        color: '#000'
       },
       left: 'center'
     },
-    darkMode: true,
     tooltip: {
       trigger: 'axis',
       axisPointer: {
         type: 'cross',
         crossStyle: {
-          color: '#999'
+          color: '#000'
         }
       }
     },
@@ -69,7 +68,7 @@ onMounted(() => {
     legend: {
       data: ['大学生人数', '医院数量'],
       textStyle: {
-        color: '#dcdcdc'
+        color: '#000'
       },
       top: 30
     },
@@ -89,7 +88,11 @@ onMounted(() => {
         min: 0,
         max: 250,
         axisLabel: {
-          formatter: '{value} 万人'
+          formatter: '{value} 万人',
+          color: '#000'
+        },
+        nameTextStyle: {
+          color: '#000'
         },
         splitLine: {
           show: true,
@@ -104,7 +107,11 @@ onMounted(() => {
         min: 0,
         max: 2500,
         axisLabel: {
-          formatter: '{value} 所'
+          formatter: '{value} 所',
+          color: '#000'
+        },
+        nameTextStyle: {
+          color: '#000'
         },
         splitLine: {
           show: true,
@@ -150,9 +157,12 @@ onMounted(() => {
 <style scoped lang="scss">
 .container {
   width: 1000px;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 }
 </style>

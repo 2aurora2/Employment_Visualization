@@ -1,22 +1,22 @@
 <template>
   <div class="container">
     <div class="radio">
-      <div class="form-check form-check-inline" data-bs-theme="dark">
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="keyword" id="keyword1" value="0" checked
                v-model="curType">
-        <label class="form-check-label" for="keyword1" style="color: #dcdcdc">所需学历</label>
+        <label class="form-check-label" for="keyword1" style="color:black;">所需学历</label>
       </div>
-      <div class="form-check form-check-inline" data-bs-theme="dark">
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="keyword" id="keyword2" value="1" v-model="curType">
-        <label class="form-check-label" for="keyword2" style="color: #dcdcdc">工作性质</label>
+        <label class="form-check-label" for="keyword2" style="color:black;">工作性质</label>
       </div>
-      <div class="form-check form-check-inline" data-bs-theme="dark">
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="keyword" id="keyword3" value="2" v-model="curType">
-        <label class="form-check-label" for="keyword3" style="color: #dcdcdc">公司团队规模</label>
+        <label class="form-check-label" for="keyword3" style="color:black;">公司团队规模</label>
       </div>
-      <div class="form-check form-check-inline" data-bs-theme="dark">
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="keyword" id="keyword4" value="3" v-model="curType">
-        <label class="form-check-label" for="keyword4" style="color: #dcdcdc">工作所需经验</label>
+        <label class="form-check-label" for="keyword4" style="color:black;">工作所需经验</label>
       </div>
     </div>
     <div id="main" style="height: 650px;width: 1000px"></div>
@@ -95,7 +95,7 @@ const showBar = (sites, mean) => {
         legend: {
           show: true,
           textStyle: {
-            color: '#dcdcdc'
+            color: '#000'
           }
         },
         itemStyle: {
@@ -103,32 +103,45 @@ const showBar = (sites, mean) => {
         },
         xAxis: {
           type: 'category',
-          data: sites
+          data: sites,
+          axisLabel: {
+            color: '#000'
+          }
         },
         yAxis: [{
           type: 'value',
-          name: colName,
+          nameTextStyle: {
+            color: '#000'
+          },
           splitLine: {
             show: true,
             lineStyle: {
               type: 'dashed',
-              color: '#2c2a46'
+              color: '#76739a'
             }
+          },
+          axisLabel: {
+            formatter: '{value}',
+            color: '#000'
           }
         },
           {
             type: 'value',
             name: '平均薪资（元）',
             position: 'right',
+            nameTextStyle: {
+              color: '#000'
+            },
             splitLine: {
               show: true,
               lineStyle: {
                 type: 'dashed',
-                color: '#2c2a46'
+                color: '#76739a'
               }
             },
             axisLabel: {
-              formatter: '{value}'
+              formatter: '{value}',
+              color: '#000'
             }
           }
         ],
@@ -137,7 +150,7 @@ const showBar = (sites, mean) => {
           axisPointer: {
             type: 'cross',
             crossStyle: {
-              color: '#999'
+              color: '#000'
             }
           }
         },
@@ -182,6 +195,9 @@ const showBar = (sites, mean) => {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 
   .radio {
     height: 40px;

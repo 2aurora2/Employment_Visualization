@@ -2,13 +2,12 @@
   <div class="container">
     <div class="user-choose">
       <div class="select">
-        <select id="city-choose" class="form-select" aria-label="Default select example" data-bs-theme="dark"
-                v-model="curBigCate">
+        <select id="city-choose" class="form-select" aria-label="Default select example" v-model="curBigCate">
         </select>
       </div>
     </div>
     <div class="salary-bar">
-      <div id="main" style="height: 550px;width: 950px"></div>
+      <div id="main" style="height: 600px;width: 1000px"></div>
     </div>
   </div>
 </template>
@@ -54,7 +53,6 @@ const SalaryNumber = () => {
 
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
-    darkMode: true,
     tooltip: {
       trigger: 'axis',
       axisPointer: {
@@ -94,7 +92,7 @@ const SalaryNumber = () => {
     legend: {
       data: ['月薪资中位数', '月薪资平均数'],
       textStyle: {
-        color: '#dcdcdc'
+        color: '#000'
       },
     },
     xAxis: [
@@ -103,6 +101,9 @@ const SalaryNumber = () => {
         data: xLabel,
         axisPointer: {
           type: 'shadow'
+        },
+        axisLabel: {
+          color: '#000'
         }
       }
     ],
@@ -113,7 +114,8 @@ const SalaryNumber = () => {
         // min: 0,
         // max: 250,
         axisLabel: {
-          formatter: '{value} 元'
+          formatter: '{value} 元',
+          color: '#000'
         },
         splitLine: {
           show: true,
@@ -121,15 +123,22 @@ const SalaryNumber = () => {
             type: 'dashed',
             color: '#2c2a46'
           }
-        }
+        },
+        nameTextStyle: {
+          color: '#000'
+        },
       },
       {
         type: 'value',
         name: '月薪资平均数',
+        nameTextStyle: {
+          color: '#000'
+        },
         // min: 0,
         // max: Math.max(average),
         axisLabel: {
-          formatter: '{value} 元'
+          formatter: '{value} 元',
+          color: '#000'
         },
         splitLine: {
           show: true,
@@ -176,11 +185,14 @@ const SalaryNumber = () => {
 <style scoped lang="scss">
 .container {
   width: 1000px;
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 
   .user-choose {
     display: flex;

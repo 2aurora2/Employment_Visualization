@@ -2,27 +2,26 @@
   <div class="container">
     <div class="user-choose">
       <div class="select">
-        <select id="city-choose" class="form-select" aria-label="Default select example" data-bs-theme="dark"
-                v-model="curCity">
+        <select id="city-choose" class="form-select" aria-label="Default select example" v-model="curCity">
         </select>
       </div>
       <div class="radio">
-        <div class="form-check form-check-inline" data-bs-theme="dark">
+        <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="keyword" id="keyword1" value="0" checked v-model="curType">
           <label class="form-check-label" for="keyword1">公司名称</label>
         </div>
-        <div class="form-check form-check-inline" data-bs-theme="dark">
+        <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="keyword" id="keyword2" value="1" v-model="curType">
           <label class="form-check-label" for="keyword2">岗位类型</label>
         </div>
-        <div class="form-check form-check-inline" data-bs-theme="dark">
+        <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="keyword" id="keyword3" value="2" v-model="curType">
           <label class="form-check-label" for="keyword3">岗位特点</label>
         </div>
       </div>
     </div>
     <div class="keyword-cloud">
-      <div id="main" style="height: 580px;width: 950px"></div>
+      <div id="main" style="height: 600px;width: 950px"></div>
     </div>
   </div>
 </template>
@@ -69,9 +68,9 @@ const keywordCloud = () => {
         textStyle: {
           color: () => {
             return 'rgb(' + [
-              Math.round(Math.random() * 160 + 95),
-              Math.round(Math.random() * 160 + 95),
-              Math.round(Math.random() * 160 + 95)
+              Math.round(Math.random() * 110 + 80),
+              Math.round(Math.random() * 110 + 80),
+              Math.round(Math.random() * 110 + 80)
             ].join(',') + ')';
           }
         },
@@ -79,7 +78,7 @@ const keywordCloud = () => {
         emphasis: {
           textStyle: {
             fontWeight: 'bold',
-            color: '#dcdcdc'
+            color: '#000000'
           }
         }
       }
@@ -117,11 +116,14 @@ onMounted(() => {
 <style scoped lang="scss">
 .container {
   width: 1000px;
-  height: 600px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 
   .user-choose {
     display: flex;
@@ -144,7 +146,7 @@ onMounted(() => {
       align-items: center;
 
       .form-check {
-        color: #dcdcdc;
+        color: #000000;
         margin-left: 10px;
       }
     }

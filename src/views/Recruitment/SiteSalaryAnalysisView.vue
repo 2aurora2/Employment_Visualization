@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div id="main" style="height: 580px;width: 950px"></div>
+    <div id="main" style="height: 580px;width: 980px"></div>
   </div>
 </template>
 
@@ -56,7 +56,7 @@ onMounted(() => {
       orient: 'vertical',
       left: -15,
       textStyle: {
-        color: '#fff'
+        color: '#000'
       },
       top: 25
     },
@@ -170,9 +170,12 @@ onMounted(() => {
 <style scoped lang="scss">
 .container {
   width: 1000px;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 }
 </style>

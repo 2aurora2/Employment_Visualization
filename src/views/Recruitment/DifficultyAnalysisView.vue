@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div id="main" style="height: 580px;width: 950px"></div>
+    <div id="main" style="height: 650px;width: 1000px"></div>
   </div>
 </template>
 
@@ -39,13 +39,9 @@ onMounted(() => {
     title: [
       {
         text: '招聘岗位难度系数',
-        left: 'center',
-        textStyle: {
-          color: '#dcdcdc'
-        }
+        left: 'center'
       }
     ],
-    darkMode: 'auto',
     dataset: [
       {
         // prettier-ignore
@@ -120,14 +116,24 @@ onMounted(() => {
       },
       splitLine: {
         show: false
-      }
+      },
+      axisLabel: {
+        color: '#000'
+      },
     },
     yAxis: {
       type: 'value',
       name: '难度系数',
       splitArea: {
         show: true
-      }
+      },
+      axisLabel: {
+        formatter: '{value}',
+        color: '#000'
+      },
+      nameTextStyle: {
+        color: '#000'
+      },
     },
     series: [
       {
@@ -135,8 +141,10 @@ onMounted(() => {
         type: 'boxplot',
         datasetIndex: 1,
         itemStyle: {
-          color: '#b8c5f2'
+          color: '#b8c5f2',
+          borderWidth: 3
         },
+        colorBy: 'data',
         // tooltip展示内容
         tooltip: {
           formatter: (param) => {
@@ -157,7 +165,7 @@ onMounted(() => {
           symbol: 'circle',
           lineStyle: {
             type: 'dashed',
-            color: '#eff5a1',
+            color: '#4d4747',
             width: 2,
             cap: 'round'
           },
@@ -175,7 +183,7 @@ onMounted(() => {
           symbol: 'circle',
           lineStyle: {
             type: 'dashed',
-            color: '#eff5a1',
+            color: '#4d4747',
             width: 2,
             cap: 'round'
           },
@@ -192,6 +200,9 @@ onMounted(() => {
 <style scoped lang="scss">
 .container {
   width: 1000px;
-  height: 600px;
+  height: 650px;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 }
 </style>

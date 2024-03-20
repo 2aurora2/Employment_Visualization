@@ -27,7 +27,7 @@ onMounted(() => {
     },
     legend: {
       textStyle: {
-        color: '#dcdcdc',
+        color: '#000',
         fontSize: 14
       }
     },
@@ -40,11 +40,23 @@ onMounted(() => {
     xAxis: {
       type: 'value',
       boundaryGap: [0, 0.01],
-      name: '万人'
+      name: '万人',
+      axisLabel: {
+        color: '#000'
+      },
+      nameTextStyle: {
+        color: '#000'
+      },
     },
     yAxis: {
       type: 'category',
       data: cityArray,
+      axisLabel: {
+        color: '#000'
+      },
+      nameTextStyle: {
+        color: '#000'
+      }
     },
     // 区域缩放
     dataZoom: [
@@ -84,7 +96,8 @@ onMounted(() => {
         label: {
           show: true,
           distance: 20,
-          formatter: '{c}万'
+          formatter: '{c}万',
+          color: '#000'
         }
       }
     ]
@@ -102,5 +115,8 @@ onMounted(() => {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 }
 </style>

@@ -33,10 +33,9 @@ onMounted(() => {
     legend.push(date.toLocaleDateString())
   })
   city.forEach((item, index) => {
-    selected[item] = index < 5;
+    selected[item] = index < 6;
   })
 
-  console.log(series)
 
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
@@ -45,7 +44,7 @@ onMounted(() => {
       left: 'center',
       top: 0,
       textStyle: {
-        color: '#fff'
+        color: '#000'
       },
     },
     tooltip: {
@@ -57,7 +56,7 @@ onMounted(() => {
       orient: 'vertical',
       left: -10,
       textStyle: {
-        color: '#fff'
+        color: '#000'
       },
       selected: selected,
       top: 35
@@ -65,7 +64,6 @@ onMounted(() => {
     grid: {
       left: '10%',
       right: '4%',
-      bottom: '3%',
       containLabel: true
     },
     // 区域缩放
@@ -105,11 +103,23 @@ onMounted(() => {
     xAxis: {
       type: 'category',
       boundaryGap: false,
-      data: legend
+      data: legend,
+      axisLabel: {
+        color: '#000'
+      },
+      nameTextStyle: {
+        color: '#000'
+      }
     },
     yAxis: {
       type: 'value',
-      name: '元/平方米'
+      name: '元/平方米',
+      axisLabel: {
+        color: '#000'
+      },
+      nameTextStyle: {
+        color: '#000'
+      }
     },
     series: series
   })
@@ -119,9 +129,12 @@ onMounted(() => {
 <style scoped lang="scss">
 .container {
   width: 1000px;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 }
 </style>

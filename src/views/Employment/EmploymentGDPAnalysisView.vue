@@ -1,16 +1,16 @@
 <template>
   <div class="container">
     <div class="radio">
-      <div class="form-check form-check-inline" data-bs-theme="dark">
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="keyword" id="keyword1" value="0" checked v-model="curType">
-        <label class="form-check-label" for="keyword1" style="color: #dcdcdc">城镇单位从业人数</label>
+        <label class="form-check-label" for="keyword1" style="color: #000">城镇单位从业人数</label>
       </div>
-      <div class="form-check form-check-inline" data-bs-theme="dark">
+      <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="keyword" id="keyword2" value="1" v-model="curType">
-        <label class="form-check-label" for="keyword2" style="color: #dcdcdc">城镇私营和个体从业人数</label>
+        <label class="form-check-label" for="keyword2" style="color: #000">城镇私营和个体从业人数</label>
       </div>
     </div>
-    <div id="main" style="height: 650px;width: 1000px"></div>
+    <div id="main" style="height: 600px;width: 1000px;margin-top: 20px"></div>
   </div>
 </template>
 
@@ -62,7 +62,7 @@ const chinaMapping = (data, name, min, max, color) => {
       id: 'ChinaMap',
       map: 'ChinaMap',  // 注册的地图名
       show: true,
-      zoom: 1.2,
+      zoom: 1.25,
       roam: false,
       // 文本标签，地区名, 控制样式，位置等等
       label: {
@@ -90,7 +90,7 @@ const chinaMapping = (data, name, min, max, color) => {
       bottom: 30,
       calculable: true,
       textStyle: {
-        color: '#dcdcdc'
+        color: '#000'
       },
       text: [name, ''],
     },
@@ -165,6 +165,9 @@ const chinaMapping = (data, name, min, max, color) => {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: transparent;
+  border: none !important;
+  box-shadow: none;
 
   .radio {
     height: 40px;
