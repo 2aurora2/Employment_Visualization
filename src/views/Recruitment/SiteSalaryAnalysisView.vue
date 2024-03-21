@@ -75,11 +75,12 @@ onMounted(() => {
       data: sites,
       type: 'scroll',
       orient: 'vertical',
-      left: -15,
+      left: -10,
       textStyle: {
         color: '#000'
       },
-      top: 25
+      top: 25,
+      inactiveColor: '#9b8a8a',
     },
     avoidLabelOverlap: true,
     itemStyle: {
