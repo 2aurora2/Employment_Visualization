@@ -4,6 +4,7 @@
       <div v-for="(item,index) in messageList" :key="index">
         <chat-right-item-comp :message="item.content" v-if="item.role==='user'"></chat-right-item-comp>
         <chat-left-item-comp :message="item.content" v-else></chat-left-item-comp>
+        <chat-example-comp v-if="index===1"></chat-example-comp>
       </div>
     </div>
     <chat-input-comp></chat-input-comp>
@@ -16,6 +17,7 @@ import ChatRightItemComp from "@/components/ChatRightItemComp.vue";
 import ChatInputComp from "@/components/ChatInputComp.vue";
 import {useUserStore} from "@/store/modules/useUserStore.js";
 import {onMounted, ref} from "vue";
+import ChatExampleComp from "@/components/ChatExampleComp.vue";
 
 const userStore = useUserStore()
 const messageList = ref(userStore.chatMessage)

@@ -75,10 +75,10 @@ $color: #e24040;
 }
 
 .search-form {
+  width: 100%;
   position: relative;
   top: 50%;
   left: 50%;
-  width: 900px;
   height: 40px;
   border-radius: 10px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
