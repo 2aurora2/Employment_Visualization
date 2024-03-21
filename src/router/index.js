@@ -57,6 +57,11 @@ const routes = [
                 path: 'model-assistant',
                 name: 'assistant',
                 component: () => import('@/views/ModelAssistant/ModelAssistantView.vue')
+            },
+            {
+                path: 'develop-background',
+                name: 'background',
+                component: () => import('@/views/background/DevelopBackView.vue')
             }
         ]
     },

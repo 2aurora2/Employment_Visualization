@@ -24,7 +24,32 @@ onMounted(() => {
     const s = {
       name: item,
       type: 'line',
-      data: price
+      data: price,
+      smooth: true,
+      areaStyle: {
+        opacity: 0.2,
+      },
+      markArea: {
+        silent: true,
+        itemStyle: {
+          color: '#dcdcdc',
+          borderWidth: 1,
+          borderType: 'dashed'
+        },
+        data: [
+          [
+            {
+              name: '预测区间',
+              xAxis: '2024/3/11',
+              yAxis: '0'
+            },
+            {
+              xAxis: '2024/3/25',
+              yAxis: '80000'
+            }
+          ]
+        ]
+      },
     }
     series.push(s)
   })
@@ -33,9 +58,8 @@ onMounted(() => {
     legend.push(date.toLocaleDateString())
   })
   city.forEach((item, index) => {
-    selected[item] = index < 6;
+    selected[item] = index < 4;
   })
-
 
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
@@ -72,7 +96,7 @@ onMounted(() => {
         type: 'slider',
         show: true,
         startValue: '2023/5/1',
-        endValue: '2024/1/1'
+        endValue: '2024/3/25'
       },
       {
         type: 'inside'

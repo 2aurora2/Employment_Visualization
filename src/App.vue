@@ -3,12 +3,10 @@
     <div class="content flex-grow-1">
       <router-view></router-view>
     </div>
-    <footer-comp class="mt-auto"></footer-comp>
   </div>
 </template>
 
 <script setup>
-import FooterComp from "@/components/FooterComp.vue";
 </script>
 
 <style scoped lang="scss">
@@ -32,10 +30,6 @@ import FooterComp from "@/components/FooterComp.vue";
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.5);
     pointer-events: none;
   }
 }
