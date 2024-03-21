@@ -1,5 +1,14 @@
 <template>
   <div class="container">
+    <div class="tips">
+      <div class="tip-icon">
+        <img src="@/assets/image/tip.svg" alt="tip" style="width: 20px;height: auto;cursor: pointer"
+             @mouseover="showTips" @mouseleave="hideTips">
+        <p class="tip-content" id="content">
+          薪资水平是通过层次聚类得到的，饼图中由内到外分为六个批次(薪资水平从高到低)
+        </p>
+      </div>
+    </div>
     <div id="main" style="height: 580px;width: 980px"></div>
   </div>
 </template>
@@ -8,6 +17,18 @@
 import SiteClass from '@/assets/data/分类结果测试.json'
 import {onMounted} from "vue";
 import * as echarts from 'echarts';
+
+const showTips = () => {
+  const dom = document.getElementById('content')
+  dom.style.height = '85px';
+  dom.style.padding = '5px 6px 5px 10px'
+}
+
+const hideTips = () => {
+  const dom = document.getElementById('content')
+  dom.style.height = '0'
+  dom.style.padding = '0'
+}
 
 onMounted(() => {
   const siteClass = Array.isArray(SiteClass) ? SiteClass : []
@@ -172,10 +193,39 @@ onMounted(() => {
   width: 1000px;
   height: 650px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: transparent;
   border: none !important;
   box-shadow: none;
+
+  .tips {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2px;
+
+    .tip-icon {
+      position: relative;
+
+      .tip-content {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 215px;
+        height: 0;
+        background-color: #3d61d2;
+        padding: 0;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: 宋体, serif;
+        transition: height 1s, padding 1s;
+        overflow: hidden;
+      }
+    }
+  }
 }
 </style>
