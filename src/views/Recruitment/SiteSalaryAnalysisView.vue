@@ -3,7 +3,7 @@
     <div class="tips">
       <div class="tip-icon">
         <img src="@/assets/image/tip.svg" alt="tip" style="width: 20px;height: auto;cursor: pointer"
-             @mouseover="showTips" @mouseleave="hideTips">
+             @mouseover="showTips">
         <p class="tip-content" id="content">
           薪资水平是通过层次聚类得到的，饼图中由内到外分为六个批次(薪资水平从高到低)
         </p>
@@ -22,12 +22,11 @@ const showTips = () => {
   const dom = document.getElementById('content')
   dom.style.height = '85px';
   dom.style.padding = '5px 6px 5px 10px'
-}
 
-const hideTips = () => {
-  const dom = document.getElementById('content')
-  dom.style.height = '0'
-  dom.style.padding = '0'
+  setTimeout(() => {
+    dom.style.height = '0'
+    dom.style.padding = '0'
+  }, 3000)
 }
 
 onMounted(() => {
@@ -57,6 +56,7 @@ onMounted(() => {
       formatter: '{a} <br/>{b}: {c} ({d}%)'
     },
     toolbox: {
+      bottom: 0,
       feature: {
         // 保存图片
         saveAsImage: {
@@ -67,7 +67,8 @@ onMounted(() => {
         },
         // 重新加载
         restore: {
-          show: true
+          show: true,
+          title: '重新加载'
         }
       }
     },

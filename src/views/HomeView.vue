@@ -72,14 +72,14 @@
           </div>
         </div>
         <div class="side-wrapper">
-          <div class="side-title">就业环境分析</div>
+          <div class="side-title">就业环境分析及预测</div>
           <div class="side-menu">
             <router-link class="sidebar-link" href="#" to="/employment-environment/house-price-analysis">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
                     d="M13.338.833a2,2,0,0,0-2.676,0L0,10.429v10.4a3.2,3.2,0,0,0,3.2,3.2H20.8a3.2,3.2,0,0,0,3.2-3.2v-10.4ZM15,22.026H9V17a3,3,0,0,1,6,0Zm7-1.2a1.2,1.2,0,0,1-1.2,1.2H17V17A5,5,0,0,0,7,17v5.026H3.2a1.2,1.2,0,0,1-1.2-1.2V11.319l10-9,10,9Z"/>
               </svg>
-              城市房价分析
+              城市房价分析及预测
             </router-link>
             <router-link class="sidebar-link" href="#" to="/employment-environment/medical-education-analysis">
               <svg viewBox="0 0 24 24" fill="currentColor">
@@ -92,7 +92,7 @@
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18.581,2.14,12.316.051a1,1,0,0,0-.632,0L5.419,2.14A4.993,4.993,0,0,0,2,6.883V12c0,7.563,9.2,11.74,9.594,11.914a1,1,0,0,0,.812,0C12.8,23.74,22,19.563,22,12V6.883A4.993,4.993,0,0,0,18.581,2.14ZM20,12c0,5.455-6.319,9.033-8,9.889-1.683-.853-8-4.42-8-9.889V6.883A3,3,0,0,1,6.052,4.037L12,2.054l5.948,1.983A3,3,0,0,1,20,6.883Z"/><path d="M15.3,8.3,11.112,12.5,8.868,10.16a1,1,0,1,0-1.441,1.386l2.306,2.4a1.872,1.872,0,0,0,1.345.6h.033a1.873,1.873,0,0,0,1.335-.553l4.272-4.272A1,1,0,0,0,15.3,8.3Z"/>
               </svg>
-              城镇养老保险支出分析
+              养老保险支出分析及预测
             </router-link>
           </div>
         </div>
@@ -174,7 +174,7 @@ img {
 
 :root {
   --body-font: "Inter", sans-serif;
-  --theme-bg: rgba(255, 255, 255, 0.8);
+  --theme-bg: rgba(255, 255, 255, 0.9);
   --body-color: #808191;
   --button-bg: #aee8df;
   --border-color: rgb(128 129 145 / 24%);
@@ -195,7 +195,7 @@ img {
   font-weight: 500;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
   position: relative;
-  margin-top: 10px;
+  margin-top: 17px;
 }
 
 .sidebar {
