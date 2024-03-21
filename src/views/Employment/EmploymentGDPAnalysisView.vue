@@ -33,13 +33,13 @@ const typeWatch = watch(curType, (newVal, oldVal) => {
       data.push({name: city['城市'], value: RegionGeo[city['城市']].concat(city['城镇单位从业人数（万人）'])})
     })
 
-    echarts.registerMap('ChinaMap', ChinaMap)
+    echarts.registerMap('china', ChinaMap)
     chinaMapping(data, '城镇单位从业人数(万人)', 18, 791, '#d5cf6d')
   } else {
     employment.forEach(city => {
       data.push({name: city['城市'], value: RegionGeo[city['城市']].concat(city['城镇私营和个体从业人员（万人）'])})
     })
-    console.log(data)
+
     echarts.registerMap('ChinaMap', ChinaMap)
     chinaMapping(data, '城镇私营和个体从业人数(万人)', 40, 882, '#88e799')
   }
@@ -51,7 +51,7 @@ onMounted(() => {
     data.push({name: city['城市'], value: RegionGeo[city['城市']].concat(city['城镇单位从业人数（万人）'])})
   })
 
-  echarts.registerMap('ChinaMap', ChinaMap)
+  echarts.registerMap('china', ChinaMap)
   china.value = echarts.init(document.getElementById('main'))
   chinaMapping(data, '城镇单位从业人数(万人)', 18, 791, '#d5cf6d')
 })
@@ -60,7 +60,7 @@ const chinaMapping = (data, name, min, max, color) => {
   china.value.setOption({
     geo: {
       id: 'ChinaMap',
-      map: 'ChinaMap',  // 注册的地图名
+      map: 'china',  // 注册的地图名
       show: true,
       zoom: 1.25,
       roam: false,

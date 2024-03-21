@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import HousePrice from '@/assets/data/房价_total.json'
+import Insurance from '@/assets/data/insurance.json'
 import * as echarts from 'echarts'
 import {onMounted} from "vue";
 
@@ -13,10 +13,10 @@ onMounted(() => {
   const series = []
   const legend = []
   const selected = {}
-  const house = JSON.parse(JSON.stringify(HousePrice))
-  const city = Object.keys(house)
+  const insurance = JSON.parse(JSON.stringify(Insurance))
+  const city = Object.keys(insurance)
   city.forEach(item => {
-    const tmpHouse = house[item]
+    const tmpHouse = insurance[item]
     const price = []
     tmpHouse.forEach(day => {
       price.push(day[1])
@@ -40,11 +40,11 @@ onMounted(() => {
           [
             {
               name: '预测区间',
-              xAxis: '2024/3/11',
+              xAxis: '2022',
               yAxis: '0'
             },
             {
-              xAxis: '2024/3/25',
+              xAxis: '2025',
               yAxis: '80000'
             }
           ]
@@ -53,9 +53,8 @@ onMounted(() => {
     }
     series.push(s)
   })
-  house['北京'].forEach(item => {
-    const date = new Date(item[0])
-    legend.push(date.toLocaleDateString())
+  insurance['北京市'].forEach(item => {
+    legend.push(item[0])
   })
   city.forEach((item, index) => {
     selected[item] = index < 4;
@@ -64,7 +63,7 @@ onMounted(() => {
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
     title: {
-      text: '城市近两年每周平均房价',
+      text: '各省份养老保险支出',
       left: 'center',
       top: 0,
       textStyle: {
@@ -78,8 +77,8 @@ onMounted(() => {
       data: city,
       type: 'scroll',
       orient: 'vertical',
-      inactiveColor: '#9b8a8a',
       left: -10,
+      inactiveColor: '#9b8a8a',
       textStyle: {
         color: '#000'
       },
@@ -96,8 +95,8 @@ onMounted(() => {
       {
         type: 'slider',
         show: true,
-        startValue: '2023/5/1',
-        endValue: '2024/3/25'
+        startValue: '2010',
+        endValue: '2025'
       },
       {
         type: 'inside'
@@ -138,7 +137,7 @@ onMounted(() => {
     },
     yAxis: {
       type: 'value',
-      name: '元/平方米',
+      name: '亿元',
       axisLabel: {
         color: '#000'
       },

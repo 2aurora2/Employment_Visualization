@@ -61,7 +61,12 @@ const routes = [
             {
                 path: 'develop-background',
                 name: 'background',
-                component: () => import('@/views/background/DevelopBackView.vue')
+                component: () => import('@/views/Background/DevelopBackView.vue')
+            },
+            {
+                path: 'employment-environment/insurance-analysis',
+                name: 'insurance',
+                component: () => import('@/views/Environment/InsuranceAnalysisView.vue')
             }
         ]
     },
