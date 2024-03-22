@@ -1,36 +1,15 @@
 <template>
   <div class="container">
-    <div class="radio">
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="keyword" id="keyword1" value="0" checked v-model="curType">
-        <label class="form-check-label" for="keyword1" style="color: #000">养老保险</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="keyword" id="keyword2" value="1" v-model="curType">
-        <label class="form-check-label" for="keyword2" style="color: #000">失业保险</label>
-      </div>
-    </div>
     <div id="main" style="height: 580px;width: 1000px"></div>
   </div>
 </template>
 
 <script setup>
-import Insurance from '@/assets/data/insurance.json'
-import Insurance_2 from '@/assets/data/insurance_2.json'
-import * as echarts from 'echarts'
-import {onMounted, ref, shallowRef, watch} from "vue";
+import {onMounted, shallowRef} from "vue";
+import Revenue from '@/assets/data/revenue.json'
+import * as echarts from "echarts";
 
-const curType = ref(0)
 const dom = shallowRef()
-
-const typeWatch = watch(curType, (newType, oldType) => {
-  dom.value.clear()
-  if (Number(newType) === 0) {
-    mountEcharts(Insurance, '各省份养老保险支出')
-  } else {
-    mountEcharts(Insurance_2, '各省份失业保险支出')
-  }
-})
 
 const mountEcharts = (originData, title) => {
   const series = []
@@ -68,7 +47,7 @@ const mountEcharts = (originData, title) => {
             },
             {
               xAxis: '2025',
-              yAxis: '80000'
+              yAxis: '100000'
             }
           ]
         ]
@@ -159,7 +138,7 @@ const mountEcharts = (originData, title) => {
     },
     yAxis: {
       type: 'value',
-      name: '亿元',
+      name: '元',
       axisLabel: {
         color: '#000'
       },
@@ -173,7 +152,7 @@ const mountEcharts = (originData, title) => {
 
 onMounted(() => {
   dom.value = echarts.init(document.getElementById('main'))
-  mountEcharts(Insurance, '各省份养老保险支出');
+  mountEcharts(Revenue, '各省份人均可支配收入');
 })
 </script>
 
@@ -188,17 +167,5 @@ onMounted(() => {
   background: transparent;
   border: none !important;
   box-shadow: none;
-
-  .radio {
-    height: 40px;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-
-    .form-check {
-      color: #dcdcdc;
-      margin-left: 10px;
-    }
-  }
 }
 </style>

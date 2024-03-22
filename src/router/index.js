@@ -67,6 +67,11 @@ const routes = [
                 path: 'employment-environment/insurance-analysis',
                 name: 'insurance',
                 component: () => import('@/views/Environment/InsuranceAnalysisView.vue')
+            },
+            {
+                path: 'employment-environment/revenue-analysis',
+                name: 'revenue',
+                component: () => import('@/views/Environment/RevenueAnalysisView.vue')
             }
         ]
     },
