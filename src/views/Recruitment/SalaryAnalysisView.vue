@@ -5,6 +5,13 @@
         <select id="city-choose" class="form-select" aria-label="Default select example" v-model="curBigCate">
         </select>
       </div>
+      <div class="tip-icon">
+        <img src="@/assets/image/tip.svg" alt="tip" style="width: 20px;height: auto;cursor: pointer"
+             @mouseover="showTips">
+        <p class="tip-content" id="content">
+          图表展示的是下拉框所选择的对应一级岗位下的所有二级岗位的月薪资中位数和平均数
+        </p>
+      </div>
     </div>
     <div class="salary-bar">
       <div id="main" style="height: 600px;width: 1000px"></div>
@@ -22,6 +29,17 @@ const curBigCate = ref('后端开发')
 const cateWatch = watch(curBigCate, (newVal, oldVal) => {
   SalaryNumber()
 })
+
+const showTips = () => {
+  const dom = document.getElementById('content')
+  dom.style.height = '55px';
+  dom.style.padding = '5px 6px 5px 10px'
+
+  setTimeout(() => {
+    dom.style.height = '0'
+    dom.style.padding = '0'
+  }, 5000)
+}
 
 onMounted(() => {
   const bigCategory = Object.keys(JobData)
@@ -199,6 +217,7 @@ const SalaryNumber = () => {
     height: 50px;
     width: 100%;
     margin-top: 26px;
+    position: relative;
 
     flex-flow: row nowrap;
     align-items: center;
@@ -206,6 +225,22 @@ const SalaryNumber = () => {
 
     #city-choose {
       width: 200px;
+    }
+
+    .tip-content {
+      position: absolute;
+      top: -10px;
+      right: 20px;
+      width: 350px;
+      height: 0;
+      background-color: #3d61d2;
+      padding: 0;
+      border-radius: 5px;
+      color: #FFFFFF;
+      font-size: 15px;
+      font-family: 宋体, serif;
+      transition: height 1s, padding 1s;
+      overflow: hidden;
     }
   }
 }

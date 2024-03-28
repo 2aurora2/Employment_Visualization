@@ -5,7 +5,7 @@
         <img src="@/assets/image/tip.svg" alt="tip" style="width: 20px;height: auto;cursor: pointer"
              @mouseover="showTips">
         <p class="tip-content" id="content">
-          招聘岗位难度系数是由该岗位的：薪资、所需工作经验、所需学历、公司规模、工作性质等属性进行TOPSIS综合评价得到的。
+          招聘岗位难度系数是由该岗位的：薪资、所需工作经验、所需学历、公司规模、工作性质等属性通过变异系数-TOPSIS评价法得到的。
         </p>
       </div>
     </div>
@@ -36,7 +36,7 @@ const showTips = () => {
   setTimeout(() => {
     dom.style.height = '0'
     dom.style.padding = '0'
-  }, 6000)
+  }, 5000)
 }
 
 onBeforeMount(() => {

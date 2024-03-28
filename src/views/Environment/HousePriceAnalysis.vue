@@ -1,6 +1,15 @@
 <template>
   <div class="container">
-    <div id="main" style="height: 580px;width: 900px"></div>
+    <div class="tips">
+      <div class="tip-icon">
+        <img src="@/assets/image/tip.svg" alt="tip" style="width: 20px;height: auto;cursor: pointer"
+             @mouseover="showTips">
+        <p class="tip-content" id="content">
+          平均房价是以周为时间单位，真实数据区间为2022/3/14至2024/3/4且预测区间是使用ARIMA模型进行时序数据预测，预测时间区间为2024/3/5至2024/3/25。
+        </p>
+      </div>
+    </div>
+    <div id="main" style="height: 580px;width: 1000px"></div>
   </div>
 </template>
 
@@ -8,6 +17,17 @@
 import HousePrice from '@/assets/data/房价_total.json'
 import * as echarts from 'echarts'
 import {onMounted} from "vue";
+
+const showTips = () => {
+  const dom = document.getElementById('content')
+  dom.style.height = '95px';
+  dom.style.padding = '5px 6px 5px 10px'
+
+  setTimeout(() => {
+    dom.style.height = '0'
+    dom.style.padding = '0'
+  }, 4000)
+}
 
 onMounted(() => {
   const series = []
@@ -84,7 +104,8 @@ onMounted(() => {
         color: '#000'
       },
       selected: selected,
-      top: 35
+      top: 35,
+      height: 500
     },
     grid: {
       left: '10%',
@@ -104,6 +125,8 @@ onMounted(() => {
       }
     ],
     toolbox: {
+      bottom: 0,
+      left: -7,
       feature: {
         // 保存图片
         saveAsImage: {
@@ -156,10 +179,39 @@ onMounted(() => {
   width: 1000px;
   height: 650px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: transparent;
   border: none !important;
   box-shadow: none;
+
+  .tips {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2px;
+
+    .tip-icon {
+      position: relative;
+
+      .tip-content {
+        position: absolute;
+        top: -10px;
+        right: 20px;
+        width: 350px;
+        height: 0;
+        background-color: #3d61d2;
+        padding: 0;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: "Times New Roman", 宋体, serif;
+        transition: height 1s, padding 1s;
+        overflow: hidden;
+      }
+    }
+  }
 }
 </style>
