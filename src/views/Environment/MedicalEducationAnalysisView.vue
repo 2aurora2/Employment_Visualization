@@ -22,13 +22,6 @@ onMounted(() => {
 
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
-    title: {
-      text: '各省份教育与卫生情况',
-      textStyle: {
-        color: '#000'
-      },
-      left: 'center'
-    },
     tooltip: {
       trigger: 'axis',
       axisPointer: {
@@ -69,8 +62,7 @@ onMounted(() => {
       data: ['大学生人数', '医院数量'],
       textStyle: {
         color: '#000'
-      },
-      top: 30
+      }
     },
     xAxis: [
       {

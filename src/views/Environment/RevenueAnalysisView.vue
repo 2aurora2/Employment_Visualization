@@ -173,7 +173,7 @@ const mountEcharts = (originData, title) => {
 
 onMounted(() => {
   dom.value = echarts.init(document.getElementById('main'))
-  mountEcharts(Revenue, '各省份人均可支配收入');
+  mountEcharts(Revenue, '人均可支配收入');
 })
 </script>
 

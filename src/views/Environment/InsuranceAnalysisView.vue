@@ -26,9 +26,9 @@ const dom = shallowRef()
 const typeWatch = watch(curType, (newType, oldType) => {
   dom.value.clear()
   if (Number(newType) === 0) {
-    mountEcharts(Insurance, '各省份养老保险支出')
+    mountEcharts(Insurance, '养老保险支出')
   } else {
-    mountEcharts(Insurance_2, '各省份失业保险支出')
+    mountEcharts(Insurance_2, '失业保险支出')
   }
 })
 
@@ -173,7 +173,7 @@ const mountEcharts = (originData, title) => {
 
 onMounted(() => {
   dom.value = echarts.init(document.getElementById('main'))
-  mountEcharts(Insurance, '各省份养老保险支出');
+  mountEcharts(Insurance, '养老保险支出');
 })
 </script>
 
