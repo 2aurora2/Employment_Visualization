@@ -1,6 +1,6 @@
 <template>
   <div class="container justify-content-center">
-    <h2 class="col-12 text-center">锦绣前程——云端就业数据可视化及预测分析平台</h2>
+    <h2 class="col-12 text-center">锦绣前程——云端就业数据可视化及预测分析系统</h2>
     <p class="content">
       “锦绣前程”旨在使求职者通过<strong>直观的、可靠的、多元的、近期的</strong>可交互可视化信息，更快速地、多维度地了解到近期多个城市的<strong>岗位招聘整体情况、城市就业失业情况、房价相关情况</strong>等，以辅助求职者择业时做出更明智的决策，消除信息壁垒，使其结合自身条件制定更好的<strong>职业规划</strong>。
     </p>
