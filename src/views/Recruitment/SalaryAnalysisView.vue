@@ -62,12 +62,19 @@ const SalaryNumber = () => {
   const average = []
   const midVal = []
   const xLabel = []
+  const need = {}
 
   smlObj.forEach(cate => {
     xLabel.push(cate);
     midVal.push(parseInt(bigObj[cate]['中位数'].replace("¥", "").replace(",", "")))
     average.push(parseInt(bigObj[cate]['平均数'].replace("¥", "").replace(",", "")))
+    need[cate] = {}
+    need[cate]['中位数'] = parseInt(bigObj[cate]['中位数'].replace("¥", "").replace(",", ""));
+    need[cate]['平均数'] = parseInt(bigObj[cate]['平均数'].replace("¥", "").replace(",", ""));
   })
+
+  console.log(curBigCate.value, JSON.stringify(need))
+
 
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
@@ -121,7 +128,7 @@ const SalaryNumber = () => {
           type: 'shadow'
         },
         axisLabel: {
-          color: '#000'
+          color: '#000',
         }
       }
     ],

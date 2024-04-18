@@ -2,8 +2,8 @@
   <div class="container">
     <div class="sidebar">
       <router-link class="logo-expand" to="/" style="font-size: 30px">
-        <img src="../../public/vite.svg" alt="logo" style="width: 32px;height: 32px">
-        <span style="padding-left: 10px">锦绣前程</span>
+        <img src="../../public/logo.png" alt="logo" style="width: 40px;height: 40px">
+        <span style="margin-left: 5px">锦绣前程</span>
       </router-link>
       <div class="side-wrappers">
         <div class="side-wrapper">
