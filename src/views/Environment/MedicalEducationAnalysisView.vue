@@ -37,7 +37,7 @@ onMounted(() => {
         type: 'slider',
         show: true,
         startValue: '北京',
-        endValue: '湖南'
+        endValue: '河南'
       },
       {
         type: 'inside'

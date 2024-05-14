@@ -1,4 +1,3932 @@
 {
+    "广州": {
+        "com_name": [
+            {
+                "name": "云景科技",
+                "value": 1
+            },
+            {
+                "name": "广州腾驹科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "掌上乐游",
+                "value": 2
+            },
+            {
+                "name": "广州淼鑫沐足休闲有限公司",
+                "value": 4
+            },
+            {
+                "name": "百安居",
+                "value": 1
+            },
+            {
+                "name": "NCS",
+                "value": 5
+            },
+            {
+                "name": "SHEIN",
+                "value": 9
+            },
+            {
+                "name": "赞同科技",
+                "value": 4
+            },
+            {
+                "name": "大蓝网络",
+                "value": 2
+            },
+            {
+                "name": "智品网络",
+                "value": 6
+            },
+            {
+                "name": "弹指道",
+                "value": 3
+            },
+            {
+                "name": "泛华控股集团",
+                "value": 1
+            },
+            {
+                "name": "千音科技",
+                "value": 2
+            },
+            {
+                "name": "妙思互动",
+                "value": 5
+            },
+            {
+                "name": "晋道企业管理",
+                "value": 1
+            },
+            {
+                "name": "网思科技",
+                "value": 2
+            },
+            {
+                "name": "知微科技",
+                "value": 1
+            },
+            {
+                "name": "欧派",
+                "value": 2
+            },
+            {
+                "name": "越亮传奇",
+                "value": 1
+            },
+            {
+                "name": "京北方",
+                "value": 4
+            },
+            {
+                "name": "宜健邦科技",
+                "value": 2
+            },
+            {
+                "name": "YY",
+                "value": 5
+            },
+            {
+                "name": "赛博威",
+                "value": 5
+            },
+            {
+                "name": "景心科技",
+                "value": 1
+            },
+            {
+                "name": "欢聚集团（JOYY Inc.）",
+                "value": 7
+            },
+            {
+                "name": "猎奇互娱",
+                "value": 1
+            },
+            {
+                "name": "字节跳动",
+                "value": 10
+            },
+            {
+                "name": "中电金信",
+                "value": 7
+            },
+            {
+                "name": "安久科技",
+                "value": 1
+            },
+            {
+                "name": "中移互联网",
+                "value": 11
+            },
+            {
+                "name": "万达宝软件",
+                "value": 2
+            },
+            {
+                "name": "哇嘎互娱",
+                "value": 2
+            },
+            {
+                "name": "加兔",
+                "value": 1
+            },
+            {
+                "name": "博丽",
+                "value": 2
+            },
+            {
+                "name": "新意互动",
+                "value": 1
+            },
+            {
+                "name": "杉数科技",
+                "value": 1
+            },
+            {
+                "name": "网新新思",
+                "value": 2
+            },
+            {
+                "name": "深图智测软件",
+                "value": 5
+            },
+            {
+                "name": "广东亿迅",
+                "value": 1
+            },
+            {
+                "name": "凌隆网络",
+                "value": 4
+            },
+            {
+                "name": "网易",
+                "value": 4
+            },
+            {
+                "name": "骑驴",
+                "value": 1
+            },
+            {
+                "name": "舜飞科技",
+                "value": 2
+            },
+            {
+                "name": "一手",
+                "value": 3
+            },
+            {
+                "name": "锦行网络科技",
+                "value": 2
+            },
+            {
+                "name": "路通网络",
+                "value": 1
+            },
+            {
+                "name": "高思贸易",
+                "value": 1
+            },
+            {
+                "name": "深海游戏",
+                "value": 2
+            },
+            {
+                "name": "南方报业",
+                "value": 4
+            },
+            {
+                "name": "英雄互娱",
+                "value": 1
+            },
+            {
+                "name": "广州天游",
+                "value": 2
+            },
+            {
+                "name": "豹擎科技",
+                "value": 2
+            },
+            {
+                "name": "明动软件",
+                "value": 4
+            },
+            {
+                "name": "保椿养老产业",
+                "value": 1
+            },
+            {
+                "name": "娱加娱乐",
+                "value": 1
+            },
+            {
+                "name": "盈米基金",
+                "value": 2
+            },
+            {
+                "name": "润通丰华",
+                "value": 1
+            },
+            {
+                "name": "酷游娱乐",
+                "value": 8
+            },
+            {
+                "name": "建信金科",
+                "value": 2
+            },
+            {
+                "name": "深蓝互动",
+                "value": 4
+            },
+            {
+                "name": "超级课程表",
+                "value": 1
+            },
+            {
+                "name": "微创软件",
+                "value": 1
+            },
+            {
+                "name": "迅捷微风",
+                "value": 2
+            },
+            {
+                "name": "九天软件(JTSOFT)",
+                "value": 1
+            },
+            {
+                "name": "广发银行信用卡中心",
+                "value": 2
+            },
+            {
+                "name": "海捷科技",
+                "value": 1
+            },
+            {
+                "name": "探迹科技",
+                "value": 3
+            },
+            {
+                "name": "Mobvista",
+                "value": 1
+            },
+            {
+                "name": "广州盛原成",
+                "value": 2
+            },
+            {
+                "name": "君海游戏",
+                "value": 3
+            },
+            {
+                "name": "群接龙",
+                "value": 3
+            },
+            {
+                "name": "非凡文化传媒",
+                "value": 3
+            },
+            {
+                "name": "酷狗音乐",
+                "value": 8
+            },
+            {
+                "name": "维度无限",
+                "value": 1
+            },
+            {
+                "name": "天翼物联",
+                "value": 1
+            },
+            {
+                "name": "联通（广东）产业互联网",
+                "value": 2
+            },
+            {
+                "name": "星飞",
+                "value": 3
+            },
+            {
+                "name": "美的集团IT",
+                "value": 2
+            },
+            {
+                "name": "久邦GOMO",
+                "value": 2
+            },
+            {
+                "name": "华资软件",
+                "value": 3
+            },
+            {
+                "name": "科迪新汇",
+                "value": 2
+            },
+            {
+                "name": "卡车之家",
+                "value": 1
+            },
+            {
+                "name": "芦苇科技",
+                "value": 2
+            },
+            {
+                "name": "百道数据",
+                "value": 1
+            },
+            {
+                "name": "七乐康",
+                "value": 2
+            },
+            {
+                "name": "广州趣米网络",
+                "value": 4
+            },
+            {
+                "name": "爱智投广州分公司",
+                "value": 3
+            },
+            {
+                "name": "优路",
+                "value": 1
+            },
+            {
+                "name": "妈妈网",
+                "value": 1
+            },
+            {
+                "name": "上海浩宜信息科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "杰纳医药",
+                "value": 2
+            },
+            {
+                "name": "鸿溪见杉",
+                "value": 1
+            },
+            {
+                "name": "广州市绿蕃茄软件科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "优聚大鱼",
+                "value": 2
+            },
+            {
+                "name": "诗悦网络",
+                "value": 2
+            },
+            {
+                "name": "笨马科技",
+                "value": 2
+            },
+            {
+                "name": "屈臣氏中国",
+                "value": 5
+            },
+            {
+                "name": "博彦科技",
+                "value": 1
+            },
+            {
+                "name": "埋堆堆",
+                "value": 6
+            },
+            {
+                "name": "拓保软件",
+                "value": 2
+            },
+            {
+                "name": "创悦管理",
+                "value": 1
+            },
+            {
+                "name": "科睿汽车服务有限公司",
+                "value": 1
+            },
+            {
+                "name": "徽豫企业管理",
+                "value": 1
+            },
+            {
+                "name": "北京蜜莱坞网络科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "长红置业",
+                "value": 1
+            },
+            {
+                "name": "大参林集团",
+                "value": 1
+            },
+            {
+                "name": "广州厚源建材",
+                "value": 1
+            },
+            {
+                "name": "大白互联",
+                "value": 2
+            },
+            {
+                "name": "萌啦信息",
+                "value": 1
+            },
+            {
+                "name": "深圳隽思信息科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "美业颜究院",
+                "value": 1
+            },
+            {
+                "name": "广州趣炫",
+                "value": 1
+            },
+            {
+                "name": "派客朴食",
+                "value": 1
+            },
+            {
+                "name": "比心",
+                "value": 2
+            },
+            {
+                "name": "彩讯股份",
+                "value": 1
+            },
+            {
+                "name": "喜玩旅游",
+                "value": 1
+            },
+            {
+                "name": "友邦科技",
+                "value": 2
+            },
+            {
+                "name": "UMU",
+                "value": 2
+            },
+            {
+                "name": "荔枝集团",
+                "value": 3
+            },
+            {
+                "name": "Ola",
+                "value": 1
+            },
+            {
+                "name": "白云信息科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "德科信息",
+                "value": 1
+            },
+            {
+                "name": "趋动科技",
+                "value": 1
+            },
+            {
+                "name": "数羊网络",
+                "value": 2
+            },
+            {
+                "name": "乐创互动",
+                "value": 1
+            },
+            {
+                "name": "广州南天",
+                "value": 1
+            },
+            {
+                "name": "暖暖直播",
+                "value": 2
+            },
+            {
+                "name": "速狐科技",
+                "value": 2
+            },
+            {
+                "name": "广州竣仁网络科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "天翼云科技有限公司",
+                "value": 3
+            },
+            {
+                "name": "契约锁",
+                "value": 1
+            },
+            {
+                "name": "晓游科技",
+                "value": 2
+            },
+            {
+                "name": "如祺出行",
+                "value": 1
+            },
+            {
+                "name": "云徙科技",
+                "value": 1
+            },
+            {
+                "name": "思芮信息",
+                "value": 1
+            },
+            {
+                "name": "麦仑科技",
+                "value": 1
+            },
+            {
+                "name": "广州游爱",
+                "value": 1
+            },
+            {
+                "name": "正量文化",
+                "value": 1
+            },
+            {
+                "name": "匠心游戏",
+                "value": 1
+            },
+            {
+                "name": "英荔教育",
+                "value": 1
+            },
+            {
+                "name": "嘉德永丰",
+                "value": 1
+            },
+            {
+                "name": "美琦佳成网络科技有限公司",
+                "value": 1
+            },
+            {
+                "name": "人瑞",
+                "value": 3
+            },
+            {
+                "name": "三乐公司",
+                "value": 1
+            },
+            {
+                "name": "广州新晨",
+                "value": 1
+            },
+            {
+                "name": "信必优Symbio(深圳)",
+                "value": 2
+            },
+            {
+                "name": "网易游戏",
+                "value": 1
+            },
+            {
+                "name": "保利爱家",
+                "value": 1
+            },
+            {
+                "name": "广发证券",
+                "value": 1
+            },
+            {
+                "name": "虎牙科技",
+                "value": 1
+            },
+            {
+                "name": "数鹏通科技",
+                "value": 1
+            },
+            {
+                "name": "讯鸿网络",
+                "value": 2
+            },
+            {
+                "name": "上海畅指网络科技有限公司广州分公司",
+                "value": 1
+            },
+            {
+                "name": "广州问天",
+                "value": 1
+            },
+            {
+                "name": "中国光大银行广州分行",
+                "value": 1
+            },
+            {
+                "name": "爱拍科技",
+                "value": 2
+            },
+            {
+                "name": "暖善社区居家养老服务",
+                "value": 1
+            },
+            {
+                "name": "中山市大涌镇锦芝秀制衣厂",
+                "value": 1
+            },
+            {
+                "name": "卓越纵横",
+                "value": 2
+            },
+            {
+                "name": "合力亿捷",
+                "value": 1
+            },
+            {
+                "name": "星原商业经营管理",
+                "value": 1
+            },
+            {
+                "name": "科锐国际人力资源",
+                "value": 1
+            },
+            {
+                "name": "简知科技",
+                "value": 1
+            },
+            {
+                "name": "租租车",
+                "value": 1
+            },
+            {
+                "name": "滴滴",
+                "value": 1
+            },
+            {
+                "name": "微聚科技",
+                "value": 1
+            },
+            {
+                "name": "中软国际科技服务有限公司",
+                "value": 1
+            },
+            {
+                "name": "smart agricul",
+                "value": 1
+            },
+            {
+                "name": "广东智源",
+                "value": 1
+            },
+            {
+                "name": "龙腾出行",
+                "value": 1
+            },
+            {
+                "name": "聚客网络",
+                "value": 1
+            },
+            {
+                "name": "广东联通通信建设有限公司",
+                "value": 1
+            },
+            {
+                "name": "佰悦互娱",
+                "value": 1
+            },
+            {
+                "name": "草花互动",
+                "value": 1
+            },
+            {
+                "name": "美团",
+                "value": 1
+            },
+            {
+                "name": "公诚咨询",
+                "value": 1
+            },
+            {
+                "name": "粉星时尚",
+                "value": 1
+            },
+            {
+                "name": "盖得排行",
+                "value": 1
+            },
+            {
+                "name": "联想电讯盈科企业方案",
+                "value": 1
+            },
+            {
+                "name": "数数科技",
+                "value": 1
+            },
+            {
+                "name": "搜款网 VVIC",
+                "value": 1
+            },
+            {
+                "name": "中长康达",
+                "value": 1
+            },
+            {
+                "name": "特赞|Tezign",
+                "value": 1
+            },
+            {
+                "name": "广州百田",
+                "value": 1
+            },
+            {
+                "name": "微易软件",
+                "value": 1
+            },
+            {
+                "name": "浩云科技",
+                "value": 1
+            },
+            {
+                "name": "广州麦田",
+                "value": 1
+            }
+        ],
+        "job": [
+            {
+                "name": "node",
+                "value": 1
+            },
+            {
+                "name": "js",
+                "value": 1
+            },
+            {
+                "name": "开发",
+                "value": 63
+            },
+            {
+                "name": "工程师",
+                "value": 102
+            },
+            {
+                "name": "c",
+                "value": 2
+            },
+            {
+                "name": "语言",
+                "value": 1
+            },
+            {
+                "name": "商务",
+                "value": 12
+            },
+            {
+                "name": "助理",
+                "value": 6
+            },
+            {
+                "name": "前台",
+                "value": 1
+            },
+            {
+                "name": "收银员",
+                "value": 1
+            },
+            {
+                "name": "高薪",
+                "value": 1
+            },
+            {
+                "name": "急招",
+                "value": 2
+            },
+            {
+                "name": "家装",
+                "value": 1
+            },
+            {
+                "name": "商户",
+                "value": 2
+            },
+            {
+                "name": "拓展",
+                "value": 4
+            },
+            {
+                "name": "专员",
+                "value": 28
+            },
+            {
+                "name": "Java",
+                "value": 10
+            },
+            {
+                "name": "技术",
+                "value": 3
+            },
+            {
+                "name": "经理",
+                "value": 47
+            },
+            {
+                "name": "资深",
+                "value": 5
+            },
+            {
+                "name": "供应链",
+                "value": 1
+            },
+            {
+                "name": " ",
+                "value": 35
+            },
+            {
+                "name": "MJ007694",
+                "value": 1
+            },
+            {
+                "name": "前端开发",
+                "value": 10
+            },
+            {
+                "name": "硬核",
+                "value": 1
+            },
+            {
+                "name": "投放",
+                "value": 7
+            },
+            {
+                "name": "R4C51",
+                "value": 1
+            },
+            {
+                "name": "高级",
+                "value": 38
+            },
+            {
+                "name": "游戏",
+                "value": 34
+            },
+            {
+                "name": "ui",
+                "value": 3
+            },
+            {
+                "name": "设计师",
+                "value": 22
+            },
+            {
+                "name": "养老",
+                "value": 1
+            },
+            {
+                "name": "视觉",
+                "value": 8
+            },
+            {
+                "name": "cocos",
+                "value": 3
+            },
+            {
+                "name": "沐足",
+                "value": 3
+            },
+            {
+                "name": "服务员",
+                "value": 1
+            },
+            {
+                "name": "算法",
+                "value": 3
+            },
+            {
+                "name": "博士",
+                "value": 1
+            },
+            {
+                "name": "Paas",
+                "value": 1
+            },
+            {
+                "name": "平台",
+                "value": 6
+            },
+            {
+                "name": "运维",
+                "value": 10
+            },
+            {
+                "name": "中级",
+                "value": 4
+            },
+            {
+                "name": "java",
+                "value": 17
+            },
+            {
+                "name": "策划",
+                "value": 9
+            },
+            {
+                "name": "海外",
+                "value": 12
+            },
+            {
+                "name": "优化",
+                "value": 4
+            },
+            {
+                "name": "师",
+                "value": 6
+            },
+            {
+                "name": "产品",
+                "value": 34
+            },
+            {
+                "name": "售前",
+                "value": 3
+            },
+            {
+                "name": "云南",
+                "value": 1
+            },
+            {
+                "name": "安卓",
+                "value": 3
+            },
+            {
+                "name": "rom",
+                "value": 1
+            },
+            {
+                "name": "音视频",
+                "value": 1
+            },
+            {
+                "name": "Flutter",
+                "value": 2
+            },
+            {
+                "name": "策略",
+                "value": 2
+            },
+            {
+                "name": "MJ004265",
+                "value": 1
+            },
+            {
+                "name": "技师",
+                "value": 2
+            },
+            {
+                "name": "服务器",
+                "value": 1
+            },
+            {
+                "name": "前端",
+                "value": 1
+            },
+            {
+                "name": "人力资源",
+                "value": 1
+            },
+            {
+                "name": "HRBP",
+                "value": 1
+            },
+            {
+                "name": "美团",
+                "value": 1
+            },
+            {
+                "name": "运营",
+                "value": 50
+            },
+            {
+                "name": "MJ005704",
+                "value": 1
+            },
+            {
+                "name": "服务端",
+                "value": 3
+            },
+            {
+                "name": "UGC",
+                "value": 4
+            },
+            {
+                "name": "React",
+                "value": 3
+            },
+            {
+                "name": "外包",
+                "value": 1
+            },
+            {
+                "name": "港资",
+                "value": 1
+            },
+            {
+                "name": "英语",
+                "value": 3
+            },
+            {
+                "name": "流利",
+                "value": 2
+            },
+            {
+                "name": "会计",
+                "value": 2
+            },
+            {
+                "name": "golang",
+                "value": 1
+            },
+            {
+                "name": "2023",
+                "value": 7
+            },
+            {
+                "name": "生活",
+                "value": 1
+            },
+            {
+                "name": "ERP",
+                "value": 2
+            },
+            {
+                "name": "实施",
+                "value": 4
+            },
+            {
+                "name": "顾问",
+                "value": 2
+            },
+            {
+                "name": "粤语",
+                "value": 2
+            },
+            {
+                "name": "短剧",
+                "value": 1
+            },
+            {
+                "name": "编剧",
+                "value": 1
+            },
+            {
+                "name": "按摩",
+                "value": 1
+            },
+            {
+                "name": "MJ005686",
+                "value": 1
+            },
+            {
+                "name": "数据",
+                "value": 16
+            },
+            {
+                "name": "UE",
+                "value": 1
+            },
+            {
+                "name": "net",
+                "value": 1
+            },
+            {
+                "name": "客户端",
+                "value": 2
+            },
+            {
+                "name": "云",
+                "value": 6
+            },
+            {
+                "name": "终端",
+                "value": 2
+            },
+            {
+                "name": "人事主管",
+                "value": 1
+            },
+            {
+                "name": "客户",
+                "value": 5
+            },
+            {
+                "name": "总监",
+                "value": 6
+            },
+            {
+                "name": "项目经理",
+                "value": 9
+            },
+            {
+                "name": "地铁",
+                "value": 1
+            },
+            {
+                "name": "节假日",
+                "value": 1
+            },
+            {
+                "name": "不补班",
+                "value": 1
+            },
+            {
+                "name": "美术",
+                "value": 2
+            },
+            {
+                "name": "端",
+                "value": 5
+            },
+            {
+                "name": "后端",
+                "value": 1
+            },
+            {
+                "name": "媒介",
+                "value": 3
+            },
+            {
+                "name": "MJ005660",
+                "value": 1
+            },
+            {
+                "name": "语聊",
+                "value": 2
+            },
+            {
+                "name": "信息流",
+                "value": 1
+            },
+            {
+                "name": "广告",
+                "value": 7
+            },
+            {
+                "name": "KA",
+                "value": 2
+            },
+            {
+                "name": "销售",
+                "value": 11
+            },
+            {
+                "name": "上海",
+                "value": 2
+            },
+            {
+                "name": "广州",
+                "value": 15
+            },
+            {
+                "name": "财务",
+                "value": 2
+            },
+            {
+                "name": "兼",
+                "value": 1
+            },
+            {
+                "name": "行政",
+                "value": 5
+            },
+            {
+                "name": "adx",
+                "value": 1
+            },
+            {
+                "name": "dsp",
+                "value": 1
+            },
+            {
+                "name": "核算",
+                "value": 1
+            },
+            {
+                "name": "售后",
+                "value": 1
+            },
+            {
+                "name": "主管",
+                "value": 5
+            },
+            {
+                "name": "客服",
+                "value": 3
+            },
+            {
+                "name": "技术支持",
+                "value": 2
+            },
+            {
+                "name": "美宣",
+                "value": 1
+            },
+            {
+                "name": "原画",
+                "value": 3
+            },
+            {
+                "name": "爱",
+                "value": 1
+            },
+            {
+                "name": "引入",
+                "value": 1
+            },
+            {
+                "name": "python",
+                "value": 2
+            },
+            {
+                "name": "功能性",
+                "value": 1
+            },
+            {
+                "name": "测试",
+                "value": 10
+            },
+            {
+                "name": "号",
+                "value": 2
+            },
+            {
+                "name": "国内",
+                "value": 2
+            },
+            {
+                "name": "KOL",
+                "value": 1
+            },
+            {
+                "name": "方向",
+                "value": 11
+            },
+            {
+                "name": "c++",
+                "value": 2
+            },
+            {
+                "name": "内容",
+                "value": 1
+            },
+            {
+                "name": "主",
+                "value": 2
+            },
+            {
+                "name": "数值",
+                "value": 1
+            },
+            {
+                "name": "程序",
+                "value": 1
+            },
+            {
+                "name": "app",
+                "value": 1
+            },
+            {
+                "name": "五险",
+                "value": 1
+            },
+            {
+                "name": "一金",
+                "value": 1
+            },
+            {
+                "name": "双休",
+                "value": 3
+            },
+            {
+                "name": "新",
+                "value": 5
+            },
+            {
+                "name": "媒体",
+                "value": 4
+            },
+            {
+                "name": "C",
+                "value": 1
+            },
+            {
+                "name": "J10043",
+                "value": 1
+            },
+            {
+                "name": "研发",
+                "value": 9
+            },
+            {
+                "name": "阿语",
+                "value": 2
+            },
+            {
+                "name": "Engineer",
+                "value": 1
+            },
+            {
+                "name": "视频",
+                "value": 4
+            },
+            {
+                "name": "综合",
+                "value": 1
+            },
+            {
+                "name": "管理",
+                "value": 5
+            },
+            {
+                "name": "岗",
+                "value": 5
+            },
+            {
+                "name": "J10275",
+                "value": 1
+            },
+            {
+                "name": "本地化",
+                "value": 1
+            },
+            {
+                "name": "负责人",
+                "value": 4
+            },
+            {
+                "name": "Web",
+                "value": 1
+            },
+            {
+                "name": "MJ000949",
+                "value": 1
+            },
+            {
+                "name": "数字化",
+                "value": 1
+            },
+            {
+                "name": "交付",
+                "value": 2
+            },
+            {
+                "name": "UI",
+                "value": 3
+            },
+            {
+                "name": "能力",
+                "value": 1
+            },
+            {
+                "name": "J10894",
+                "value": 1
+            },
+            {
+                "name": "bi",
+                "value": 2
+            },
+            {
+                "name": "黑盒",
+                "value": 1
+            },
+            {
+                "name": "MJ005703",
+                "value": 1
+            },
+            {
+                "name": "网络",
+                "value": 3
+            },
+            {
+                "name": "信息安全",
+                "value": 1
+            },
+            {
+                "name": "服务",
+                "value": 1
+            },
+            {
+                "name": "语音",
+                "value": 1
+            },
+            {
+                "name": "聊天",
+                "value": 1
+            },
+            {
+                "name": "平面",
+                "value": 2
+            },
+            {
+                "name": "iOS",
+                "value": 3
+            },
+            {
+                "name": "J11714",
+                "value": 1
+            },
+            {
+                "name": "专家",
+                "value": 7
+            },
+            {
+                "name": "仓储",
+                "value": 3
+            },
+            {
+                "name": "客户经理",
+                "value": 3
+            },
+            {
+                "name": "品牌",
+                "value": 2
+            },
+            {
+                "name": "公关",
+                "value": 1
+            },
+            {
+                "name": "用户",
+                "value": 6
+            },
+            {
+                "name": "ZNXT",
+                "value": 3
+            },
+            {
+                "name": "培训",
+                "value": 3
+            },
+            {
+                "name": "推广",
+                "value": 5
+            },
+            {
+                "name": "渠道",
+                "value": 1
+            },
+            {
+                "name": "网络安全",
+                "value": 1
+            },
+            {
+                "name": "市场",
+                "value": 5
+            },
+            {
+                "name": "仓",
+                "value": 2
+            },
+            {
+                "name": "区域",
+                "value": 3
+            },
+            {
+                "name": "物联",
+                "value": 1
+            },
+            {
+                "name": "感知",
+                "value": 1
+            },
+            {
+                "name": "u3d",
+                "value": 2
+            },
+            {
+                "name": "虚拟",
+                "value": 1
+            },
+            {
+                "name": "etl",
+                "value": 1
+            },
+            {
+                "name": "软件",
+                "value": 2
+            },
+            {
+                "name": "项目",
+                "value": 4
+            },
+            {
+                "name": "动作",
+                "value": 2
+            },
+            {
+                "name": "体验",
+                "value": 1
+            },
+            {
+                "name": "测评",
+                "value": 1
+            },
+            {
+                "name": "品质",
+                "value": 1
+            },
+            {
+                "name": "中高级",
+                "value": 3
+            },
+            {
+                "name": "场景",
+                "value": 6
+            },
+            {
+                "name": "原",
+                "value": 4
+            },
+            {
+                "name": "画师",
+                "value": 4
+            },
+            {
+                "name": "tl",
+                "value": 1
+            },
+            {
+                "name": "渗透",
+                "value": 1
+            },
+            {
+                "name": "初级",
+                "value": 2
+            },
+            {
+                "name": "佛山",
+                "value": 2
+            },
+            {
+                "name": "播放器",
+                "value": 1
+            },
+            {
+                "name": "框架",
+                "value": 1
+            },
+            {
+                "name": "品类",
+                "value": 1
+            },
+            {
+                "name": "商务代表",
+                "value": 1
+            },
+            {
+                "name": "慢病",
+                "value": 1
+            },
+            {
+                "name": "招聘",
+                "value": 2
+            },
+            {
+                "name": "互联网",
+                "value": 3
+            },
+            {
+                "name": "金融",
+                "value": 1
+            },
+            {
+                "name": "电商",
+                "value": 6
+            },
+            {
+                "name": "华南",
+                "value": 1
+            },
+            {
+                "name": "事业部",
+                "value": 1
+            },
+            {
+                "name": "酷狗",
+                "value": 1
+            },
+            {
+                "name": "商城",
+                "value": 1
+            },
+            {
+                "name": "总账会计",
+                "value": 2
+            },
+            {
+                "name": "税务",
+                "value": 2
+            },
+            {
+                "name": "J10050",
+                "value": 1
+            },
+            {
+                "name": "Python",
+                "value": 1
+            },
+            {
+                "name": "MJ005928",
+                "value": 1
+            },
+            {
+                "name": "零售",
+                "value": 1
+            },
+            {
+                "name": "总经办",
+                "value": 1
+            },
+            {
+                "name": "系统",
+                "value": 7
+            },
+            {
+                "name": "需求",
+                "value": 2
+            },
+            {
+                "name": "分析师",
+                "value": 4
+            },
+            {
+                "name": "项目管理",
+                "value": 3
+            },
+            {
+                "name": "编辑",
+                "value": 1
+            },
+            {
+                "name": "八字",
+                "value": 1
+            },
+            {
+                "name": "塔罗",
+                "value": 1
+            },
+            {
+                "name": "希音",
+                "value": 1
+            },
+            {
+                "name": "懂车帝",
+                "value": 1
+            },
+            {
+                "name": "广告投放",
+                "value": 3
+            },
+            {
+                "name": "SPBU",
+                "value": 2
+            },
+            {
+                "name": "懒人",
+                "value": 1
+            },
+            {
+                "name": "直播",
+                "value": 6
+            },
+            {
+                "name": "PHP",
+                "value": 1
+            },
+            {
+                "name": "hyperf",
+                "value": 1
+            },
+            {
+                "name": "经验",
+                "value": 1
+            },
+            {
+                "name": "优先",
+                "value": 1
+            },
+            {
+                "name": "flutter",
+                "value": 1
+            },
+            {
+                "name": "亚马逊",
+                "value": 1
+            },
+            {
+                "name": "日薪",
+                "value": 1
+            },
+            {
+                "name": "600",
+                "value": 1
+            },
+            {
+                "name": "滴滴",
+                "value": 1
+            },
+            {
+                "name": "网约车",
+                "value": 1
+            },
+            {
+                "name": "司机",
+                "value": 1
+            },
+            {
+                "name": "数据库",
+                "value": 1
+            },
+            {
+                "name": "数仓",
+                "value": 1
+            },
+            {
+                "name": "置业",
+                "value": 1
+            },
+            {
+                "name": "Native",
+                "value": 1
+            },
+            {
+                "name": "办公室",
+                "value": 1
+            },
+            {
+                "name": "文员",
+                "value": 1
+            },
+            {
+                "name": "reacr",
+                "value": 1
+            },
+            {
+                "name": "平面设计",
+                "value": 1
+            },
+            {
+                "name": "PTBU",
+                "value": 2
+            },
+            {
+                "name": "会员",
+                "value": 1
+            },
+            {
+                "name": "曲库",
+                "value": 1
+            },
+            {
+                "name": "美工设计",
+                "value": 1
+            },
+            {
+                "name": "增长",
+                "value": 3
+            },
+            {
+                "name": "人事行政",
+                "value": 1
+            },
+            {
+                "name": "RPA",
+                "value": 1
+            },
+            {
+                "name": "人事",
+                "value": 5
+            },
+            {
+                "name": "Senior",
+                "value": 1
+            },
+            {
+                "name": "H4903",
+                "value": 1
+            },
+            {
+                "name": "员工",
+                "value": 1
+            },
+            {
+                "name": "关系",
+                "value": 1
+            },
+            {
+                "name": "工具",
+                "value": 2
+            },
+            {
+                "name": "计算",
+                "value": 1
+            },
+            {
+                "name": "物流",
+                "value": 1
+            },
+            {
+                "name": "门户",
+                "value": 1
+            },
+            {
+                "name": "文案",
+                "value": 2
+            },
+            {
+                "name": "avg",
+                "value": 1
+            },
+            {
+                "name": "演出",
+                "value": 1
+            },
+            {
+                "name": "Account",
+                "value": 1
+            },
+            {
+                "name": "Manager",
+                "value": 1
+            },
+            {
+                "name": "No.003",
+                "value": 1
+            },
+            {
+                "name": "合规",
+                "value": 1
+            },
+            {
+                "name": "隐私",
+                "value": 1
+            },
+            {
+                "name": "艺人",
+                "value": 2
+            },
+            {
+                "name": "合作",
+                "value": 1
+            },
+            {
+                "name": "独立",
+                "value": 1
+            },
+            {
+                "name": "站",
+                "value": 1
+            },
+            {
+                "name": "电影",
+                "value": 1
+            },
+            {
+                "name": "票务",
+                "value": 1
+            },
+            {
+                "name": "power",
+                "value": 1
+            },
+            {
+                "name": "学徒",
+                "value": 1
+            },
+            {
+                "name": "制作",
+                "value": 1
+            },
+            {
+                "name": "架构师",
+                "value": 3
+            },
+            {
+                "name": "淘宝",
+                "value": 2
+            },
+            {
+                "name": "中控",
+                "value": 1
+            },
+            {
+                "name": "视频剪辑",
+                "value": 1
+            },
+            {
+                "name": "中",
+                "value": 2
+            },
+            {
+                "name": "台",
+                "value": 2
+            },
+            {
+                "name": "中心",
+                "value": 1
+            },
+            {
+                "name": "社交",
+                "value": 2
+            },
+            {
+                "name": "角色",
+                "value": 2
+            },
+            {
+                "name": "MJ005620",
+                "value": 1
+            },
+            {
+                "name": "交互",
+                "value": 1
+            },
+            {
+                "name": "软件开发",
+                "value": 1
+            },
+            {
+                "name": "GPU",
+                "value": 1
+            },
+            {
+                "name": "虚拟化",
+                "value": 1
+            },
+            {
+                "name": "2711",
+                "value": 1
+            },
+            {
+                "name": "h5",
+                "value": 1
+            },
+            {
+                "name": "营销",
+                "value": 2
+            },
+            {
+                "name": "base",
+                "value": 1
+            },
+            {
+                "name": "数据仓库",
+                "value": 1
+            },
+            {
+                "name": "slg",
+                "value": 1
+            },
+            {
+                "name": "高投",
+                "value": 1
+            },
+            {
+                "name": "E2617",
+                "value": 1
+            },
+            {
+                "name": "MJ000797",
+                "value": 1
+            },
+            {
+                "name": "creator",
+                "value": 1
+            },
+            {
+                "name": "主题",
+                "value": 1
+            },
+            {
+                "name": "MJ005743",
+                "value": 1
+            },
+            {
+                "name": "嵌入式",
+                "value": 1
+            },
+            {
+                "name": "硬件",
+                "value": 1
+            },
+            {
+                "name": "服务器端",
+                "value": 1
+            },
+            {
+                "name": "C++",
+                "value": 2
+            },
+            {
+                "name": "2d",
+                "value": 1
+            },
+            {
+                "name": "特效",
+                "value": 1
+            },
+            {
+                "name": "线下",
+                "value": 1
+            },
+            {
+                "name": "native",
+                "value": 1
+            },
+            {
+                "name": "香港",
+                "value": 1
+            },
+            {
+                "name": "办公",
+                "value": 1
+            },
+            {
+                "name": "数据挖掘",
+                "value": 1
+            },
+            {
+                "name": "MJ000203",
+                "value": 1
+            },
+            {
+                "name": "组长",
+                "value": 1
+            },
+            {
+                "name": "中国移动",
+                "value": 1
+            },
+            {
+                "name": "云盘",
+                "value": 1
+            },
+            {
+                "name": "客户端程序",
+                "value": 1
+            },
+            {
+                "name": "员",
+                "value": 1
+            },
+            {
+                "name": "Unity",
+                "value": 1
+            },
+            {
+                "name": "艺术",
+                "value": 1
+            },
+            {
+                "name": "BD",
+                "value": 1
+            },
+            {
+                "name": "线上",
+                "value": 1
+            },
+            {
+                "name": "ue4",
+                "value": 1
+            },
+            {
+                "name": "J23353",
+                "value": 1
+            },
+            {
+                "name": "薪酬",
+                "value": 1
+            },
+            {
+                "name": "采购",
+                "value": 1
+            },
+            {
+                "name": "支付",
+                "value": 1
+            },
+            {
+                "name": "集群",
+                "value": 1
+            },
+            {
+                "name": "hrbp",
+                "value": 1
+            },
+            {
+                "name": "ios",
+                "value": 1
+            },
+            {
+                "name": "sdk",
+                "value": 1
+            },
+            {
+                "name": "接入",
+                "value": 1
+            },
+            {
+                "name": "MJ005673",
+                "value": 1
+            },
+            {
+                "name": "南区",
+                "value": 1
+            },
+            {
+                "name": "android",
+                "value": 2
+            },
+            {
+                "name": "活动",
+                "value": 1
+            },
+            {
+                "name": "全栈",
+                "value": 1
+            },
+            {
+                "name": "出纳",
+                "value": 1
+            },
+            {
+                "name": "E5XP",
+                "value": 1
+            },
+            {
+                "name": "PM",
+                "value": 1
+            },
+            {
+                "name": "二次元",
+                "value": 1
+            },
+            {
+                "name": "Android",
+                "value": 2
+            },
+            {
+                "name": "Developer",
+                "value": 1
+            },
+            {
+                "name": "通话",
+                "value": 1
+            },
+            {
+                "name": "团队",
+                "value": 1
+            },
+            {
+                "name": "可小白",
+                "value": 1
+            },
+            {
+                "name": "一带",
+                "value": 1
+            },
+            {
+                "name": "产研",
+                "value": 1
+            },
+            {
+                "name": "实习生",
+                "value": 2
+            },
+            {
+                "name": "MJ004268",
+                "value": 1
+            },
+            {
+                "name": "U9P",
+                "value": 1
+            },
+            {
+                "name": "分析",
+                "value": 1
+            },
+            {
+                "name": "柜面",
+                "value": 1
+            },
+            {
+                "name": "超柜",
+                "value": 1
+            },
+            {
+                "name": "产品策划",
+                "value": 1
+            },
+            {
+                "name": "融资",
+                "value": 1
+            },
+            {
+                "name": "流程",
+                "value": 1
+            },
+            {
+                "name": "高级顾问",
+                "value": 1
+            },
+            {
+                "name": "变革",
+                "value": 1
+            },
+            {
+                "name": "QGKL",
+                "value": 1
+            },
+            {
+                "name": "MJ004261",
+                "value": 1
+            },
+            {
+                "name": "宣发",
+                "value": 1
+            },
+            {
+                "name": "执行",
+                "value": 1
+            },
+            {
+                "name": "主策",
+                "value": 1
+            },
+            {
+                "name": "mmorpg",
+                "value": 1
+            },
+            {
+                "name": "5g",
+                "value": 1
+            },
+            {
+                "name": "核心网",
+                "value": 1
+            },
+            {
+                "name": "主程",
+                "value": 1
+            },
+            {
+                "name": "配餐",
+                "value": 1
+            },
+            {
+                "name": "南沙",
+                "value": 1
+            },
+            {
+                "name": "区",
+                "value": 1
+            },
+            {
+                "name": "驻点",
+                "value": 1
+            },
+            {
+                "name": "短",
+                "value": 1
+            },
+            {
+                "name": "编导",
+                "value": 2
+            },
+            {
+                "name": "美妆",
+                "value": 1
+            },
+            {
+                "name": "产品开发",
+                "value": 1
+            },
+            {
+                "name": "cps",
+                "value": 1
+            },
+            {
+                "name": "丽人",
+                "value": 1
+            },
+            {
+                "name": "小组",
+                "value": 1
+            },
+            {
+                "name": "leader",
+                "value": 1
+            },
+            {
+                "name": "童装",
+                "value": 1
+            },
+            {
+                "name": "教练",
+                "value": 1
+            },
+            {
+                "name": "陪",
+                "value": 1
+            },
+            {
+                "name": "玩",
+                "value": 1
+            },
+            {
+                "name": "周边",
+                "value": 1
+            },
+            {
+                "name": "动画",
+                "value": 1
+            },
+            {
+                "name": "投资",
+                "value": 1
+            },
+            {
+                "name": "公会",
+                "value": 1
+            },
+            {
+                "name": "MJ004255",
+                "value": 1
+            },
+            {
+                "name": "2694",
+                "value": 1
+            },
+            {
+                "name": "MJ000299",
+                "value": 1
+            },
+            {
+                "name": "MJ000368",
+                "value": 1
+            },
+            {
+                "name": "权益",
+                "value": 1
+            },
+            {
+                "name": "软件测试",
+                "value": 1
+            },
+            {
+                "name": "主播",
+                "value": 1
+            },
+            {
+                "name": "系统集成",
+                "value": 1
+            },
+            {
+                "name": "AD",
+                "value": 1
+            },
+            {
+                "name": "自动化",
+                "value": 1
+            },
+            {
+                "name": "3D",
+                "value": 1
+            },
+            {
+                "name": "MJ001176",
+                "value": 1
+            },
+            {
+                "name": "营收",
+                "value": 1
+            },
+            {
+                "name": "MJ004246",
+                "value": 1
+            },
+            {
+                "name": "风控",
+                "value": 1
+            },
+            {
+                "name": "日语",
+                "value": 1
+            },
+            {
+                "name": "业务",
+                "value": 2
+            },
+            {
+                "name": "tiktok",
+                "value": 1
+            },
+            {
+                "name": "BP",
+                "value": 1
+            },
+            {
+                "name": "GO",
+                "value": 1
+            },
+            {
+                "name": "后台",
+                "value": 1
+            }
+        ],
+        "feature": [
+            {
+                "name": "朝九晚",
+                "value": 9
+            },
+            {
+                "name": "周末",
+                "value": 40
+            },
+            {
+                "name": "双休",
+                "value": 93
+            },
+            {
+                "name": "调薪",
+                "value": 3
+            },
+            {
+                "name": "机制",
+                "value": 4
+            },
+            {
+                "name": "物",
+                "value": 1
+            },
+            {
+                "name": "联网",
+                "value": 1
+            },
+            {
+                "name": "数据",
+                "value": 3
+            },
+            {
+                "name": "人工智能",
+                "value": 2
+            },
+            {
+                "name": "方向",
+                "value": 2
+            },
+            {
+                "name": "商务",
+                "value": 1
+            },
+            {
+                "name": "经理",
+                "value": 2
+            },
+            {
+                "name": "培养",
+                "value": 1
+            },
+            {
+                "name": "工作",
+                "value": 17
+            },
+            {
+                "name": "轻松",
+                "value": 4
+            },
+            {
+                "name": "弹性",
+                "value": 16
+            },
+            {
+                "name": "办公",
+                "value": 9
+            },
+            {
+                "name": "五险",
+                "value": 60
+            },
+            {
+                "name": "一金",
+                "value": 109
+            },
+            {
+                "name": "六险",
+                "value": 40
+            },
+            {
+                "name": " ",
+                "value": 213
+            },
+            {
+                "name": "带薪",
+                "value": 23
+            },
+            {
+                "name": "年",
+                "value": 28
+            },
+            {
+                "name": "假",
+                "value": 25
+            },
+            {
+                "name": "团队",
+                "value": 49
+            },
+            {
+                "name": "氛围",
+                "value": 48
+            },
+            {
+                "name": "年度",
+                "value": 13
+            },
+            {
+                "name": "体检",
+                "value": 17
+            },
+            {
+                "name": "激励",
+                "value": 2
+            },
+            {
+                "name": "包餐",
+                "value": 5
+            },
+            {
+                "name": "晋升",
+                "value": 19
+            },
+            {
+                "name": "空间",
+                "value": 52
+            },
+            {
+                "name": "节日",
+                "value": 13
+            },
+            {
+                "name": "福利",
+                "value": 44
+            },
+            {
+                "name": "年终奖",
+                "value": 15
+            },
+            {
+                "name": "扁平化",
+                "value": 14
+            },
+            {
+                "name": "年轻",
+                "value": 4
+            },
+            {
+                "name": "头部",
+                "value": 2
+            },
+            {
+                "name": "厂商",
+                "value": 1
+            },
+            {
+                "name": "核心",
+                "value": 5
+            },
+            {
+                "name": "项目",
+                "value": 32
+            },
+            {
+                "name": "研发",
+                "value": 4
+            },
+            {
+                "name": "高",
+                "value": 5
+            },
+            {
+                "name": "投入",
+                "value": 2
+            },
+            {
+                "name": "通道",
+                "value": 2
+            },
+            {
+                "name": "法定",
+                "value": 2
+            },
+            {
+                "name": "假期",
+                "value": 3
+            },
+            {
+                "name": "前景",
+                "value": 4
+            },
+            {
+                "name": "上下班",
+                "value": 5
+            },
+            {
+                "name": "打卡",
+                "value": 6
+            },
+            {
+                "name": "餐补",
+                "value": 18
+            },
+            {
+                "name": "一年",
+                "value": 2
+            },
+            {
+                "name": "两次",
+                "value": 2
+            },
+            {
+                "name": "旅游",
+                "value": 3
+            },
+            {
+                "name": "大神",
+                "value": 2
+            },
+            {
+                "name": "公司",
+                "value": 5
+            },
+            {
+                "name": "成立",
+                "value": 1
+            },
+            {
+                "name": "20",
+                "value": 2
+            },
+            {
+                "name": "周年",
+                "value": 1
+            },
+            {
+                "name": "号",
+                "value": 1
+            },
+            {
+                "name": "发薪",
+                "value": 1
+            },
+            {
+                "name": "拖欠",
+                "value": 1
+            },
+            {
+                "name": "薪资",
+                "value": 7
+            },
+            {
+                "name": "Android",
+                "value": 1
+            },
+            {
+                "name": "客户端",
+                "value": 1
+            },
+            {
+                "name": "产品",
+                "value": 4
+            },
+            {
+                "name": "稳定",
+                "value": 7
+            },
+            {
+                "name": "平台",
+                "value": 41
+            },
+            {
+                "name": "收入",
+                "value": 2
+            },
+            {
+                "name": "自由",
+                "value": 4
+            },
+            {
+                "name": "学习",
+                "value": 3
+            },
+            {
+                "name": "成长",
+                "value": 8
+            },
+            {
+                "name": "人性化",
+                "value": 1
+            },
+            {
+                "name": "管理",
+                "value": 16
+            },
+            {
+                "name": "绩效奖金",
+                "value": 8
+            },
+            {
+                "name": "餐饮",
+                "value": 1
+            },
+            {
+                "name": "补贴",
+                "value": 4
+            },
+            {
+                "name": "免费",
+                "value": 12
+            },
+            {
+                "name": "咖啡",
+                "value": 7
+            },
+            {
+                "name": "健身房",
+                "value": 9
+            },
+            {
+                "name": "加班",
+                "value": 10
+            },
+            {
+                "name": "下午茶",
+                "value": 30
+            },
+            {
+                "name": "带薪休假",
+                "value": 7
+            },
+            {
+                "name": "险",
+                "value": 4
+            },
+            {
+                "name": "金",
+                "value": 3
+            },
+            {
+                "name": "福利待遇",
+                "value": 15
+            },
+            {
+                "name": "棒",
+                "value": 2
+            },
+            {
+                "name": "国企",
+                "value": 15
+            },
+            {
+                "name": "正编",
+                "value": 11
+            },
+            {
+                "name": "发展",
+                "value": 48
+            },
+            {
+                "name": "专业培训",
+                "value": 3
+            },
+            {
+                "name": "自有",
+                "value": 1
+            },
+            {
+                "name": "拍摄",
+                "value": 1
+            },
+            {
+                "name": "多劳多得",
+                "value": 2
+            },
+            {
+                "name": "优质",
+                "value": 2
+            },
+            {
+                "name": "数字",
+                "value": 3
+            },
+            {
+                "name": "营销",
+                "value": 1
+            },
+            {
+                "name": "全案",
+                "value": 1
+            },
+            {
+                "name": "代理",
+                "value": 1
+            },
+            {
+                "name": "发展前景",
+                "value": 18
+            },
+            {
+                "name": "地铁",
+                "value": 5
+            },
+            {
+                "name": "节假日",
+                "value": 3
+            },
+            {
+                "name": "补班",
+                "value": 1
+            },
+            {
+                "name": "升职",
+                "value": 1
+            },
+            {
+                "name": "机会",
+                "value": 5
+            },
+            {
+                "name": "少",
+                "value": 2
+            },
+            {
+                "name": "领导",
+                "value": 10
+            },
+            {
+                "name": "nice",
+                "value": 6
+            },
+            {
+                "name": "行业",
+                "value": 14
+            },
+            {
+                "name": "领先",
+                "value": 3
+            },
+            {
+                "name": "大牛",
+                "value": 4
+            },
+            {
+                "name": "带队",
+                "value": 2
+            },
+            {
+                "name": "客户",
+                "value": 1
+            },
+            {
+                "name": "销售",
+                "value": 1
+            },
+            {
+                "name": "盈利",
+                "value": 1
+            },
+            {
+                "name": "C",
+                "value": 1
+            },
+            {
+                "name": "轮",
+                "value": 2
+            },
+            {
+                "name": "融资",
+                "value": 1
+            },
+            {
+                "name": "排头兵",
+                "value": 1
+            },
+            {
+                "name": "成熟",
+                "value": 1
+            },
+            {
+                "name": "企业",
+                "value": 6
+            },
+            {
+                "name": "对接",
+                "value": 1
+            },
+            {
+                "name": "国外",
+                "value": 1
+            },
+            {
+                "name": "健身",
+                "value": 4
+            },
+            {
+                "name": "瑜伽",
+                "value": 4
+            },
+            {
+                "name": "比例",
+                "value": 2
+            },
+            {
+                "name": "分红",
+                "value": 4
+            },
+            {
+                "name": "包",
+                "value": 10
+            },
+            {
+                "name": "三餐",
+                "value": 14
+            },
+            {
+                "name": "加薪",
+                "value": 1
+            },
+            {
+                "name": "周边",
+                "value": 2
+            },
+            {
+                "name": "七险",
+                "value": 11
+            },
+            {
+                "name": "政务",
+                "value": 2
+            },
+            {
+                "name": "十晚",
+                "value": 1
+            },
+            {
+                "name": "业务",
+                "value": 5
+            },
+            {
+                "name": "稳",
+                "value": 2
+            },
+            {
+                "name": "餐补话",
+                "value": 1
+            },
+            {
+                "name": "补",
+                "value": 1
+            },
+            {
+                "name": "13",
+                "value": 10
+            },
+            {
+                "name": "薪",
+                "value": 10
+            },
+            {
+                "name": "运营",
+                "value": 1
+            },
+            {
+                "name": "时间",
+                "value": 2
+            },
+            {
+                "name": "入职",
+                "value": 4
+            },
+            {
+                "name": "享受",
+                "value": 1
+            },
+            {
+                "name": "10",
+                "value": 1
+            },
+            {
+                "name": "天年",
+                "value": 1
+            },
+            {
+                "name": "全勤奖",
+                "value": 5
+            },
+            {
+                "name": "年底",
+                "value": 15
+            },
+            {
+                "name": "双薪",
+                "value": 14
+            },
+            {
+                "name": "班车",
+                "value": 3
+            },
+            {
+                "name": "岗位",
+                "value": 5
+            },
+            {
+                "name": "高额",
+                "value": 1
+            },
+            {
+                "name": "奖金",
+                "value": 16
+            },
+            {
+                "name": "提成",
+                "value": 2
+            },
+            {
+                "name": "大厂",
+                "value": 6
+            },
+            {
+                "name": "居家",
+                "value": 1
+            },
+            {
+                "name": "方式",
+                "value": 1
+            },
+            {
+                "name": "提升",
+                "value": 1
+            },
+            {
+                "name": "综合",
+                "value": 1
+            },
+            {
+                "name": "能力",
+                "value": 2
+            },
+            {
+                "name": "评级",
+                "value": 1
+            },
+            {
+                "name": "奖",
+                "value": 4
+            },
+            {
+                "name": "央企",
+                "value": 2
+            },
+            {
+                "name": "绩效",
+                "value": 2
+            },
+            {
+                "name": "奖励",
+                "value": 1
+            },
+            {
+                "name": "领域",
+                "value": 1
+            },
+            {
+                "name": "独角兽",
+                "value": 4
+            },
+            {
+                "name": "年轻化",
+                "value": 6
+            },
+            {
+                "name": "全球化",
+                "value": 2
+            },
+            {
+                "name": "视野",
+                "value": 1
+            },
+            {
+                "name": "云集",
+                "value": 1
+            },
+            {
+                "name": "CBD",
+                "value": 2
+            },
+            {
+                "name": "豪华",
+                "value": 1
+            },
+            {
+                "name": "夜景",
+                "value": 1
+            },
+            {
+                "name": "四餐",
+                "value": 1
+            },
+            {
+                "name": "SCADA",
+                "value": 1
+            },
+            {
+                "name": "IOT",
+                "value": 1
+            },
+            {
+                "name": "用户量",
+                "value": 1
+            },
+            {
+                "name": "迭代",
+                "value": 2
+            },
+            {
+                "name": "环境",
+                "value": 8
+            },
+            {
+                "name": "丰厚",
+                "value": 5
+            },
+            {
+                "name": "佳",
+                "value": 3
+            },
+            {
+                "name": "出海",
+                "value": 1
+            },
+            {
+                "name": "电信",
+                "value": 1
+            },
+            {
+                "name": "编制",
+                "value": 1
+            },
+            {
+                "name": "季度",
+                "value": 5
+            },
+            {
+                "name": "基础",
+                "value": 1
+            },
+            {
+                "name": "网络",
+                "value": 1
+            },
+            {
+                "name": "技术",
+                "value": 4
+            },
+            {
+                "name": "高薪",
+                "value": 2
+            },
+            {
+                "name": "上班",
+                "value": 2
+            },
+            {
+                "name": "立足于",
+                "value": 1
+            },
+            {
+                "name": "科技",
+                "value": 2
+            },
+            {
+                "name": "26",
+                "value": 1
+            },
+            {
+                "name": "水果",
+                "value": 5
+            },
+            {
+                "name": "新",
+                "value": 3
+            },
+            {
+                "name": "活力",
+                "value": 1
+            },
+            {
+                "name": "年终",
+                "value": 1
+            },
+            {
+                "name": "完善",
+                "value": 4
+            },
+            {
+                "name": "培训",
+                "value": 5
+            },
+            {
+                "name": "活泼",
+                "value": 1
+            },
+            {
+                "name": "创业",
+                "value": 1
+            },
+            {
+                "name": "社群",
+                "value": 1
+            },
+            {
+                "name": "团购",
+                "value": 1
+            },
+            {
+                "name": "赛道",
+                "value": 1
+            },
+            {
+                "name": "互联网",
+                "value": 1
+            },
+            {
+                "name": "金融",
+                "value": 1
+            },
+            {
+                "name": "资深",
+                "value": 1
+            },
+            {
+                "name": "海外",
+                "value": 1
+            },
+            {
+                "name": "母婴",
+                "value": 1
+            },
+            {
+                "name": "领航",
+                "value": 1
+            },
+            {
+                "name": "年终奖金",
+                "value": 4
+            },
+            {
+                "name": "定期",
+                "value": 7
+            },
+            {
+                "name": "团建",
+                "value": 3
+            },
+            {
+                "name": "礼物",
+                "value": 2
+            },
+            {
+                "name": "学科",
+                "value": 1
+            },
+            {
+                "name": "交叉",
+                "value": 1
+            },
+            {
+                "name": "扁片化",
+                "value": 1
+            },
+            {
+                "name": "接触",
+                "value": 1
+            },
+            {
+                "name": "相关",
+                "value": 1
+            },
+            {
+                "name": "工会",
+                "value": 5
+            },
+            {
+                "name": "江景",
+                "value": 2
+            },
+            {
+                "name": "办公室",
+                "value": 2
+            },
+            {
+                "name": "友爱",
+                "value": 1
+            },
+            {
+                "name": "导师",
+                "value": 1
+            },
+            {
+                "name": "带教",
+                "value": 1
+            },
+            {
+                "name": "流量",
+                "value": 1
+            },
+            {
+                "name": "两餐",
+                "value": 2
+            },
+            {
+                "name": "主流",
+                "value": 1
+            },
+            {
+                "name": "flutter",
+                "value": 1
+            },
+            {
+                "name": "齐全",
+                "value": 4
+            },
+            {
+                "name": "安排",
+                "value": 1
+            },
+            {
+                "name": "业绩",
+                "value": 1
+            },
+            {
+                "name": "自主",
+                "value": 1
+            },
+            {
+                "name": "缴纳",
+                "value": 2
+            },
+            {
+                "name": "全额",
+                "value": 2
+            },
+            {
+                "name": "公积金",
+                "value": 2
+            },
+            {
+                "name": "12%",
+                "value": 1
+            },
+            {
+                "name": "资金雄厚",
+                "value": 1
+            },
+            {
+                "name": "社保",
+                "value": 2
+            },
+            {
+                "name": "重点项目",
+                "value": 1
+            },
+            {
+                "name": "员工",
+                "value": 1
+            },
+            {
+                "name": "饭堂",
+                "value": 1
+            },
+            {
+                "name": "宿舍",
+                "value": 1
+            },
+            {
+                "name": "接送",
+                "value": 1
+            },
+            {
+                "name": "室内",
+                "value": 1
+            },
+            {
+                "name": "冬暖夏凉",
+                "value": 1
+            },
+            {
+                "name": "广阔",
+                "value": 2
+            },
+            {
+                "name": "扁平",
+                "value": 6
+            },
+            {
+                "name": "上市公司",
+                "value": 3
+            },
+            {
+                "name": "创新",
+                "value": 1
+            },
+            {
+                "name": "协助",
+                "value": 1
+            },
+            {
+                "name": "办理",
+                "value": 1
+            },
+            {
+                "name": "广州",
+                "value": 1
+            },
+            {
+                "name": "入户",
+                "value": 1
+            },
+            {
+                "name": "工作制",
+                "value": 2
+            },
+            {
+                "name": "500",
+                "value": 2
+            },
+            {
+                "name": "强",
+                "value": 6
+            },
+            {
+                "name": "软件",
+                "value": 2
+            },
+            {
+                "name": "中心",
+                "value": 1
+            },
+            {
+                "name": "抗",
+                "value": 1
+            },
+            {
+                "name": "风险",
+                "value": 1
+            },
+            {
+                "name": "牛人",
+                "value": 1
+            },
+            {
+                "name": "求贤若渴",
+                "value": 1
+            },
+            {
+                "name": "全球",
+                "value": 1
+            },
+            {
+                "name": "二次元",
+                "value": 3
+            },
+            {
+                "name": "精品",
+                "value": 3
+            },
+            {
+                "name": "B",
+                "value": 1
+            },
+            {
+                "name": "端",
+                "value": 1
+            },
+            {
+                "name": "SaaS",
+                "value": 1
+            },
+            {
+                "name": "快速",
+                "value": 2
+            },
+            {
+                "name": "体量",
+                "value": 1
+            },
+            {
+                "name": "模块",
+                "value": 1
+            },
+            {
+                "name": "待遇",
+                "value": 4
+            },
+            {
+                "name": "竞争力",
+                "value": 1
+            },
+            {
+                "name": "期权",
+                "value": 2
+            },
+            {
+                "name": "世界",
+                "value": 1
+            },
+            {
+                "name": "自研",
+                "value": 2
+            },
+            {
+                "name": "引擎",
+                "value": 1
+            },
+            {
+                "name": "起飞",
+                "value": 1
+            },
+            {
+                "name": "每周",
+                "value": 1
+            },
+            {
+                "name": "下午",
+                "value": 1
+            },
+            {
+                "name": "撸",
+                "value": 1
+            },
+            {
+                "name": "猫",
+                "value": 1
+            },
+            {
+                "name": "零食",
+                "value": 4
+            },
+            {
+                "name": "游戏",
+                "value": 2
+            },
+            {
+                "name": "超大",
+                "value": 1
+            },
+            {
+                "name": "二金",
+                "value": 2
+            },
+            {
+                "name": "证券",
+                "value": 1
+            },
+            {
+                "name": "不补班",
+                "value": 1
+            },
+            {
+                "name": "蓝海",
+                "value": 1
+            },
+            {
+                "name": "市场",
+                "value": 1
+            },
+            {
+                "name": "薪酬",
+                "value": 3
+            },
+            {
+                "name": "优厚",
+                "value": 2
+            },
+            {
+                "name": "传媒",
+                "value": 1
+            },
+            {
+                "name": "龙头企业",
+                "value": 1
+            },
+            {
+                "name": "全新",
+                "value": 1
+            },
+            {
+                "name": "专业",
+                "value": 1
+            },
+            {
+                "name": "双周",
+                "value": 1
+            },
+            {
+                "name": "聚餐",
+                "value": 2
+            },
+            {
+                "name": "买",
+                "value": 1
+            },
+            {
+                "name": "商业",
+                "value": 1
+            },
+            {
+                "name": "实力",
+                "value": 4
+            },
+            {
+                "name": "月",
+                "value": 1
+            },
+            {
+                "name": "休",
+                "value": 1
+            },
+            {
+                "name": "两天",
+                "value": 1
+            },
+            {
+                "name": "住房补贴",
+                "value": 1
+            },
+            {
+                "name": "25",
+                "value": 1
+            },
+            {
+                "name": "天",
+                "value": 1
+            },
+            {
+                "name": "用户",
+                "value": 1
+            },
+            {
+                "name": "画像",
+                "value": 1
+            },
+            {
+                "name": "补充",
+                "value": 2
+            },
+            {
+                "name": "商业保险",
+                "value": 2
+            },
+            {
+                "name": "外企",
+                "value": 1
+            },
+            {
+                "name": "网易",
+                "value": 1
+            },
+            {
+                "name": "配套",
+                "value": 1
+            },
+            {
+                "name": "咖",
+                "value": 1
+            },
+            {
+                "name": "27",
+                "value": 1
+            },
+            {
+                "name": "历史",
+                "value": 1
+            },
+            {
+                "name": "稳健",
+                "value": 1
+            },
+            {
+                "name": "扎根",
+                "value": 1
+            },
+            {
+                "name": "持续",
+                "value": 1
+            },
+            {
+                "name": "14",
+                "value": 1
+            },
+            {
+                "name": "每日",
+                "value": 1
+            },
+            {
+                "name": "固定",
+                "value": 1
+            },
+            {
+                "name": "朝阳",
+                "value": 1
+            },
+            {
+                "name": "重视",
+                "value": 1
+            },
+            {
+                "name": "人才",
+                "value": 1
+            },
+            {
+                "name": "员工福利",
+                "value": 1
+            },
+            {
+                "name": "搞钱",
+                "value": 1
+            },
+            {
+                "name": "高潜",
+                "value": 1
+            },
+            {
+                "name": "提供",
+                "value": 1
+            },
+            {
+                "name": "住宿",
+                "value": 1
+            },
+            {
+                "name": "十年",
+                "value": 1
+            },
+            {
+                "name": "产",
+                "value": 1
+            },
+            {
+                "name": "工厂",
+                "value": 1
+            },
+            {
+                "name": "自创",
+                "value": 1
+            },
+            {
+                "name": "edie",
+                "value": 1
+            },
+            {
+                "name": "伊迪肖",
+                "value": 1
+            },
+            {
+                "name": "品牌",
+                "value": 1
+            },
+            {
+                "name": "淘店",
+                "value": 1
+            },
+            {
+                "name": "子女",
+                "value": 1
+            },
+            {
+                "name": "c",
+                "value": 1
+            },
+            {
+                "name": "医疗",
+                "value": 1
+            },
+            {
+                "name": "快乐",
+                "value": 1
+            },
+            {
+                "name": "亿级",
+                "value": 1
+            },
+            {
+                "name": "牛",
+                "value": 1
+            },
+            {
+                "name": "逼",
+                "value": 1
+            },
+            {
+                "name": "优",
+                "value": 1
+            },
+            {
+                "name": "国际化",
+                "value": 1
+            },
+            {
+                "name": "标杆",
+                "value": 1
+            },
+            {
+                "name": "每月",
+                "value": 1
+            },
+            {
+                "name": "活动",
+                "value": 1
+            },
+            {
+                "name": "考勤",
+                "value": 1
+            },
+            {
+                "name": "灵活",
+                "value": 1
+            },
+            {
+                "name": "slg",
+                "value": 1
+            },
+            {
+                "name": "高速",
+                "value": 1
+            },
+            {
+                "name": "假多",
+                "value": 1
+            },
+            {
+                "name": "气氛",
+                "value": 1
+            },
+            {
+                "name": "谱",
+                "value": 1
+            },
+            {
+                "name": "健全",
+                "value": 1
+            },
+            {
+                "name": "open",
+                "value": 1
+            },
+            {
+                "name": "一带",
+                "value": 1
+            },
+            {
+                "name": "一路",
+                "value": 1
+            },
+            {
+                "name": "中东",
+                "value": 1
+            },
+            {
+                "name": "优雅",
+                "value": 1
+            },
+            {
+                "name": "不定期",
+                "value": 1
+            },
+            {
+                "name": "上市",
+                "value": 1
+            },
+            {
+                "name": "风控",
+                "value": 1
+            },
+            {
+                "name": "带领",
+                "value": 1
+            },
+            {
+                "name": "早九晚",
+                "value": 1
+            }
+        ]
+    },
     "武汉": {
         "com_name": [
             {
@@ -67507,3934 +71435,6 @@
             },
             {
                 "name": "压力",
-                "value": 1
-            }
-        ]
-    },
-    "广州": {
-        "com_name": [
-            {
-                "name": "云景科技",
-                "value": 1
-            },
-            {
-                "name": "广州腾驹科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "掌上乐游",
-                "value": 2
-            },
-            {
-                "name": "广州淼鑫沐足休闲有限公司",
-                "value": 4
-            },
-            {
-                "name": "百安居",
-                "value": 1
-            },
-            {
-                "name": "NCS",
-                "value": 5
-            },
-            {
-                "name": "SHEIN",
-                "value": 9
-            },
-            {
-                "name": "赞同科技",
-                "value": 4
-            },
-            {
-                "name": "大蓝网络",
-                "value": 2
-            },
-            {
-                "name": "智品网络",
-                "value": 6
-            },
-            {
-                "name": "弹指道",
-                "value": 3
-            },
-            {
-                "name": "泛华控股集团",
-                "value": 1
-            },
-            {
-                "name": "千音科技",
-                "value": 2
-            },
-            {
-                "name": "妙思互动",
-                "value": 5
-            },
-            {
-                "name": "晋道企业管理",
-                "value": 1
-            },
-            {
-                "name": "网思科技",
-                "value": 2
-            },
-            {
-                "name": "知微科技",
-                "value": 1
-            },
-            {
-                "name": "欧派",
-                "value": 2
-            },
-            {
-                "name": "越亮传奇",
-                "value": 1
-            },
-            {
-                "name": "京北方",
-                "value": 4
-            },
-            {
-                "name": "宜健邦科技",
-                "value": 2
-            },
-            {
-                "name": "YY",
-                "value": 5
-            },
-            {
-                "name": "赛博威",
-                "value": 5
-            },
-            {
-                "name": "景心科技",
-                "value": 1
-            },
-            {
-                "name": "欢聚集团（JOYY Inc.）",
-                "value": 7
-            },
-            {
-                "name": "猎奇互娱",
-                "value": 1
-            },
-            {
-                "name": "字节跳动",
-                "value": 10
-            },
-            {
-                "name": "中电金信",
-                "value": 7
-            },
-            {
-                "name": "安久科技",
-                "value": 1
-            },
-            {
-                "name": "中移互联网",
-                "value": 11
-            },
-            {
-                "name": "万达宝软件",
-                "value": 2
-            },
-            {
-                "name": "哇嘎互娱",
-                "value": 2
-            },
-            {
-                "name": "加兔",
-                "value": 1
-            },
-            {
-                "name": "博丽",
-                "value": 2
-            },
-            {
-                "name": "新意互动",
-                "value": 1
-            },
-            {
-                "name": "杉数科技",
-                "value": 1
-            },
-            {
-                "name": "网新新思",
-                "value": 2
-            },
-            {
-                "name": "深图智测软件",
-                "value": 5
-            },
-            {
-                "name": "广东亿迅",
-                "value": 1
-            },
-            {
-                "name": "凌隆网络",
-                "value": 4
-            },
-            {
-                "name": "网易",
-                "value": 4
-            },
-            {
-                "name": "骑驴",
-                "value": 1
-            },
-            {
-                "name": "舜飞科技",
-                "value": 2
-            },
-            {
-                "name": "一手",
-                "value": 3
-            },
-            {
-                "name": "锦行网络科技",
-                "value": 2
-            },
-            {
-                "name": "路通网络",
-                "value": 1
-            },
-            {
-                "name": "高思贸易",
-                "value": 1
-            },
-            {
-                "name": "深海游戏",
-                "value": 2
-            },
-            {
-                "name": "南方报业",
-                "value": 4
-            },
-            {
-                "name": "英雄互娱",
-                "value": 1
-            },
-            {
-                "name": "广州天游",
-                "value": 2
-            },
-            {
-                "name": "豹擎科技",
-                "value": 2
-            },
-            {
-                "name": "明动软件",
-                "value": 4
-            },
-            {
-                "name": "保椿养老产业",
-                "value": 1
-            },
-            {
-                "name": "娱加娱乐",
-                "value": 1
-            },
-            {
-                "name": "盈米基金",
-                "value": 2
-            },
-            {
-                "name": "润通丰华",
-                "value": 1
-            },
-            {
-                "name": "酷游娱乐",
-                "value": 8
-            },
-            {
-                "name": "建信金科",
-                "value": 2
-            },
-            {
-                "name": "深蓝互动",
-                "value": 4
-            },
-            {
-                "name": "超级课程表",
-                "value": 1
-            },
-            {
-                "name": "微创软件",
-                "value": 1
-            },
-            {
-                "name": "迅捷微风",
-                "value": 2
-            },
-            {
-                "name": "九天软件(JTSOFT)",
-                "value": 1
-            },
-            {
-                "name": "广发银行信用卡中心",
-                "value": 2
-            },
-            {
-                "name": "海捷科技",
-                "value": 1
-            },
-            {
-                "name": "探迹科技",
-                "value": 3
-            },
-            {
-                "name": "Mobvista",
-                "value": 1
-            },
-            {
-                "name": "广州盛原成",
-                "value": 2
-            },
-            {
-                "name": "君海游戏",
-                "value": 3
-            },
-            {
-                "name": "群接龙",
-                "value": 3
-            },
-            {
-                "name": "非凡文化传媒",
-                "value": 3
-            },
-            {
-                "name": "酷狗音乐",
-                "value": 8
-            },
-            {
-                "name": "维度无限",
-                "value": 1
-            },
-            {
-                "name": "天翼物联",
-                "value": 1
-            },
-            {
-                "name": "联通（广东）产业互联网",
-                "value": 2
-            },
-            {
-                "name": "星飞",
-                "value": 3
-            },
-            {
-                "name": "美的集团IT",
-                "value": 2
-            },
-            {
-                "name": "久邦GOMO",
-                "value": 2
-            },
-            {
-                "name": "华资软件",
-                "value": 3
-            },
-            {
-                "name": "科迪新汇",
-                "value": 2
-            },
-            {
-                "name": "卡车之家",
-                "value": 1
-            },
-            {
-                "name": "芦苇科技",
-                "value": 2
-            },
-            {
-                "name": "百道数据",
-                "value": 1
-            },
-            {
-                "name": "七乐康",
-                "value": 2
-            },
-            {
-                "name": "广州趣米网络",
-                "value": 4
-            },
-            {
-                "name": "爱智投广州分公司",
-                "value": 3
-            },
-            {
-                "name": "优路",
-                "value": 1
-            },
-            {
-                "name": "妈妈网",
-                "value": 1
-            },
-            {
-                "name": "上海浩宜信息科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "杰纳医药",
-                "value": 2
-            },
-            {
-                "name": "鸿溪见杉",
-                "value": 1
-            },
-            {
-                "name": "广州市绿蕃茄软件科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "优聚大鱼",
-                "value": 2
-            },
-            {
-                "name": "诗悦网络",
-                "value": 2
-            },
-            {
-                "name": "笨马科技",
-                "value": 2
-            },
-            {
-                "name": "屈臣氏中国",
-                "value": 5
-            },
-            {
-                "name": "博彦科技",
-                "value": 1
-            },
-            {
-                "name": "埋堆堆",
-                "value": 6
-            },
-            {
-                "name": "拓保软件",
-                "value": 2
-            },
-            {
-                "name": "创悦管理",
-                "value": 1
-            },
-            {
-                "name": "科睿汽车服务有限公司",
-                "value": 1
-            },
-            {
-                "name": "徽豫企业管理",
-                "value": 1
-            },
-            {
-                "name": "北京蜜莱坞网络科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "长红置业",
-                "value": 1
-            },
-            {
-                "name": "大参林集团",
-                "value": 1
-            },
-            {
-                "name": "广州厚源建材",
-                "value": 1
-            },
-            {
-                "name": "大白互联",
-                "value": 2
-            },
-            {
-                "name": "萌啦信息",
-                "value": 1
-            },
-            {
-                "name": "深圳隽思信息科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "美业颜究院",
-                "value": 1
-            },
-            {
-                "name": "广州趣炫",
-                "value": 1
-            },
-            {
-                "name": "派客朴食",
-                "value": 1
-            },
-            {
-                "name": "比心",
-                "value": 2
-            },
-            {
-                "name": "彩讯股份",
-                "value": 1
-            },
-            {
-                "name": "喜玩旅游",
-                "value": 1
-            },
-            {
-                "name": "友邦科技",
-                "value": 2
-            },
-            {
-                "name": "UMU",
-                "value": 2
-            },
-            {
-                "name": "荔枝集团",
-                "value": 3
-            },
-            {
-                "name": "Ola",
-                "value": 1
-            },
-            {
-                "name": "白云信息科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "德科信息",
-                "value": 1
-            },
-            {
-                "name": "趋动科技",
-                "value": 1
-            },
-            {
-                "name": "数羊网络",
-                "value": 2
-            },
-            {
-                "name": "乐创互动",
-                "value": 1
-            },
-            {
-                "name": "广州南天",
-                "value": 1
-            },
-            {
-                "name": "暖暖直播",
-                "value": 2
-            },
-            {
-                "name": "速狐科技",
-                "value": 2
-            },
-            {
-                "name": "广州竣仁网络科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "天翼云科技有限公司",
-                "value": 3
-            },
-            {
-                "name": "契约锁",
-                "value": 1
-            },
-            {
-                "name": "晓游科技",
-                "value": 2
-            },
-            {
-                "name": "如祺出行",
-                "value": 1
-            },
-            {
-                "name": "云徙科技",
-                "value": 1
-            },
-            {
-                "name": "思芮信息",
-                "value": 1
-            },
-            {
-                "name": "麦仑科技",
-                "value": 1
-            },
-            {
-                "name": "广州游爱",
-                "value": 1
-            },
-            {
-                "name": "正量文化",
-                "value": 1
-            },
-            {
-                "name": "匠心游戏",
-                "value": 1
-            },
-            {
-                "name": "英荔教育",
-                "value": 1
-            },
-            {
-                "name": "嘉德永丰",
-                "value": 1
-            },
-            {
-                "name": "美琦佳成网络科技有限公司",
-                "value": 1
-            },
-            {
-                "name": "人瑞",
-                "value": 3
-            },
-            {
-                "name": "三乐公司",
-                "value": 1
-            },
-            {
-                "name": "广州新晨",
-                "value": 1
-            },
-            {
-                "name": "信必优Symbio(深圳)",
-                "value": 2
-            },
-            {
-                "name": "网易游戏",
-                "value": 1
-            },
-            {
-                "name": "保利爱家",
-                "value": 1
-            },
-            {
-                "name": "广发证券",
-                "value": 1
-            },
-            {
-                "name": "虎牙科技",
-                "value": 1
-            },
-            {
-                "name": "数鹏通科技",
-                "value": 1
-            },
-            {
-                "name": "讯鸿网络",
-                "value": 2
-            },
-            {
-                "name": "上海畅指网络科技有限公司广州分公司",
-                "value": 1
-            },
-            {
-                "name": "广州问天",
-                "value": 1
-            },
-            {
-                "name": "中国光大银行广州分行",
-                "value": 1
-            },
-            {
-                "name": "爱拍科技",
-                "value": 2
-            },
-            {
-                "name": "暖善社区居家养老服务",
-                "value": 1
-            },
-            {
-                "name": "中山市大涌镇锦芝秀制衣厂",
-                "value": 1
-            },
-            {
-                "name": "卓越纵横",
-                "value": 2
-            },
-            {
-                "name": "合力亿捷",
-                "value": 1
-            },
-            {
-                "name": "星原商业经营管理",
-                "value": 1
-            },
-            {
-                "name": "科锐国际人力资源",
-                "value": 1
-            },
-            {
-                "name": "简知科技",
-                "value": 1
-            },
-            {
-                "name": "租租车",
-                "value": 1
-            },
-            {
-                "name": "滴滴",
-                "value": 1
-            },
-            {
-                "name": "微聚科技",
-                "value": 1
-            },
-            {
-                "name": "中软国际科技服务有限公司",
-                "value": 1
-            },
-            {
-                "name": "smart agricul",
-                "value": 1
-            },
-            {
-                "name": "广东智源",
-                "value": 1
-            },
-            {
-                "name": "龙腾出行",
-                "value": 1
-            },
-            {
-                "name": "聚客网络",
-                "value": 1
-            },
-            {
-                "name": "广东联通通信建设有限公司",
-                "value": 1
-            },
-            {
-                "name": "佰悦互娱",
-                "value": 1
-            },
-            {
-                "name": "草花互动",
-                "value": 1
-            },
-            {
-                "name": "美团",
-                "value": 1
-            },
-            {
-                "name": "公诚咨询",
-                "value": 1
-            },
-            {
-                "name": "粉星时尚",
-                "value": 1
-            },
-            {
-                "name": "盖得排行",
-                "value": 1
-            },
-            {
-                "name": "联想电讯盈科企业方案",
-                "value": 1
-            },
-            {
-                "name": "数数科技",
-                "value": 1
-            },
-            {
-                "name": "搜款网 VVIC",
-                "value": 1
-            },
-            {
-                "name": "中长康达",
-                "value": 1
-            },
-            {
-                "name": "特赞|Tezign",
-                "value": 1
-            },
-            {
-                "name": "广州百田",
-                "value": 1
-            },
-            {
-                "name": "微易软件",
-                "value": 1
-            },
-            {
-                "name": "浩云科技",
-                "value": 1
-            },
-            {
-                "name": "广州麦田",
-                "value": 1
-            }
-        ],
-        "job": [
-            {
-                "name": "node",
-                "value": 1
-            },
-            {
-                "name": "js",
-                "value": 1
-            },
-            {
-                "name": "开发",
-                "value": 63
-            },
-            {
-                "name": "工程师",
-                "value": 102
-            },
-            {
-                "name": "c",
-                "value": 2
-            },
-            {
-                "name": "语言",
-                "value": 1
-            },
-            {
-                "name": "商务",
-                "value": 12
-            },
-            {
-                "name": "助理",
-                "value": 6
-            },
-            {
-                "name": "前台",
-                "value": 1
-            },
-            {
-                "name": "收银员",
-                "value": 1
-            },
-            {
-                "name": "高薪",
-                "value": 1
-            },
-            {
-                "name": "急招",
-                "value": 2
-            },
-            {
-                "name": "家装",
-                "value": 1
-            },
-            {
-                "name": "商户",
-                "value": 2
-            },
-            {
-                "name": "拓展",
-                "value": 4
-            },
-            {
-                "name": "专员",
-                "value": 28
-            },
-            {
-                "name": "Java",
-                "value": 10
-            },
-            {
-                "name": "技术",
-                "value": 3
-            },
-            {
-                "name": "经理",
-                "value": 47
-            },
-            {
-                "name": "资深",
-                "value": 5
-            },
-            {
-                "name": "供应链",
-                "value": 1
-            },
-            {
-                "name": " ",
-                "value": 35
-            },
-            {
-                "name": "MJ007694",
-                "value": 1
-            },
-            {
-                "name": "前端开发",
-                "value": 10
-            },
-            {
-                "name": "硬核",
-                "value": 1
-            },
-            {
-                "name": "投放",
-                "value": 7
-            },
-            {
-                "name": "R4C51",
-                "value": 1
-            },
-            {
-                "name": "高级",
-                "value": 38
-            },
-            {
-                "name": "游戏",
-                "value": 34
-            },
-            {
-                "name": "ui",
-                "value": 3
-            },
-            {
-                "name": "设计师",
-                "value": 22
-            },
-            {
-                "name": "养老",
-                "value": 1
-            },
-            {
-                "name": "视觉",
-                "value": 8
-            },
-            {
-                "name": "cocos",
-                "value": 3
-            },
-            {
-                "name": "沐足",
-                "value": 3
-            },
-            {
-                "name": "服务员",
-                "value": 1
-            },
-            {
-                "name": "算法",
-                "value": 3
-            },
-            {
-                "name": "博士",
-                "value": 1
-            },
-            {
-                "name": "Paas",
-                "value": 1
-            },
-            {
-                "name": "平台",
-                "value": 6
-            },
-            {
-                "name": "运维",
-                "value": 10
-            },
-            {
-                "name": "中级",
-                "value": 4
-            },
-            {
-                "name": "java",
-                "value": 17
-            },
-            {
-                "name": "策划",
-                "value": 9
-            },
-            {
-                "name": "海外",
-                "value": 12
-            },
-            {
-                "name": "优化",
-                "value": 4
-            },
-            {
-                "name": "师",
-                "value": 6
-            },
-            {
-                "name": "产品",
-                "value": 34
-            },
-            {
-                "name": "售前",
-                "value": 3
-            },
-            {
-                "name": "云南",
-                "value": 1
-            },
-            {
-                "name": "安卓",
-                "value": 3
-            },
-            {
-                "name": "rom",
-                "value": 1
-            },
-            {
-                "name": "音视频",
-                "value": 1
-            },
-            {
-                "name": "Flutter",
-                "value": 2
-            },
-            {
-                "name": "策略",
-                "value": 2
-            },
-            {
-                "name": "MJ004265",
-                "value": 1
-            },
-            {
-                "name": "技师",
-                "value": 2
-            },
-            {
-                "name": "服务器",
-                "value": 1
-            },
-            {
-                "name": "前端",
-                "value": 1
-            },
-            {
-                "name": "人力资源",
-                "value": 1
-            },
-            {
-                "name": "HRBP",
-                "value": 1
-            },
-            {
-                "name": "美团",
-                "value": 1
-            },
-            {
-                "name": "运营",
-                "value": 50
-            },
-            {
-                "name": "MJ005704",
-                "value": 1
-            },
-            {
-                "name": "服务端",
-                "value": 3
-            },
-            {
-                "name": "UGC",
-                "value": 4
-            },
-            {
-                "name": "React",
-                "value": 3
-            },
-            {
-                "name": "外包",
-                "value": 1
-            },
-            {
-                "name": "港资",
-                "value": 1
-            },
-            {
-                "name": "英语",
-                "value": 3
-            },
-            {
-                "name": "流利",
-                "value": 2
-            },
-            {
-                "name": "会计",
-                "value": 2
-            },
-            {
-                "name": "golang",
-                "value": 1
-            },
-            {
-                "name": "2023",
-                "value": 7
-            },
-            {
-                "name": "生活",
-                "value": 1
-            },
-            {
-                "name": "ERP",
-                "value": 2
-            },
-            {
-                "name": "实施",
-                "value": 4
-            },
-            {
-                "name": "顾问",
-                "value": 2
-            },
-            {
-                "name": "粤语",
-                "value": 2
-            },
-            {
-                "name": "短剧",
-                "value": 1
-            },
-            {
-                "name": "编剧",
-                "value": 1
-            },
-            {
-                "name": "按摩",
-                "value": 1
-            },
-            {
-                "name": "MJ005686",
-                "value": 1
-            },
-            {
-                "name": "数据",
-                "value": 16
-            },
-            {
-                "name": "UE",
-                "value": 1
-            },
-            {
-                "name": "net",
-                "value": 1
-            },
-            {
-                "name": "客户端",
-                "value": 2
-            },
-            {
-                "name": "云",
-                "value": 6
-            },
-            {
-                "name": "终端",
-                "value": 2
-            },
-            {
-                "name": "人事主管",
-                "value": 1
-            },
-            {
-                "name": "客户",
-                "value": 5
-            },
-            {
-                "name": "总监",
-                "value": 6
-            },
-            {
-                "name": "项目经理",
-                "value": 9
-            },
-            {
-                "name": "地铁",
-                "value": 1
-            },
-            {
-                "name": "节假日",
-                "value": 1
-            },
-            {
-                "name": "不补班",
-                "value": 1
-            },
-            {
-                "name": "美术",
-                "value": 2
-            },
-            {
-                "name": "端",
-                "value": 5
-            },
-            {
-                "name": "后端",
-                "value": 1
-            },
-            {
-                "name": "媒介",
-                "value": 3
-            },
-            {
-                "name": "MJ005660",
-                "value": 1
-            },
-            {
-                "name": "语聊",
-                "value": 2
-            },
-            {
-                "name": "信息流",
-                "value": 1
-            },
-            {
-                "name": "广告",
-                "value": 7
-            },
-            {
-                "name": "KA",
-                "value": 2
-            },
-            {
-                "name": "销售",
-                "value": 11
-            },
-            {
-                "name": "上海",
-                "value": 2
-            },
-            {
-                "name": "广州",
-                "value": 15
-            },
-            {
-                "name": "财务",
-                "value": 2
-            },
-            {
-                "name": "兼",
-                "value": 1
-            },
-            {
-                "name": "行政",
-                "value": 5
-            },
-            {
-                "name": "adx",
-                "value": 1
-            },
-            {
-                "name": "dsp",
-                "value": 1
-            },
-            {
-                "name": "核算",
-                "value": 1
-            },
-            {
-                "name": "售后",
-                "value": 1
-            },
-            {
-                "name": "主管",
-                "value": 5
-            },
-            {
-                "name": "客服",
-                "value": 3
-            },
-            {
-                "name": "技术支持",
-                "value": 2
-            },
-            {
-                "name": "美宣",
-                "value": 1
-            },
-            {
-                "name": "原画",
-                "value": 3
-            },
-            {
-                "name": "爱",
-                "value": 1
-            },
-            {
-                "name": "引入",
-                "value": 1
-            },
-            {
-                "name": "python",
-                "value": 2
-            },
-            {
-                "name": "功能性",
-                "value": 1
-            },
-            {
-                "name": "测试",
-                "value": 10
-            },
-            {
-                "name": "号",
-                "value": 2
-            },
-            {
-                "name": "国内",
-                "value": 2
-            },
-            {
-                "name": "KOL",
-                "value": 1
-            },
-            {
-                "name": "方向",
-                "value": 11
-            },
-            {
-                "name": "c++",
-                "value": 2
-            },
-            {
-                "name": "内容",
-                "value": 1
-            },
-            {
-                "name": "主",
-                "value": 2
-            },
-            {
-                "name": "数值",
-                "value": 1
-            },
-            {
-                "name": "程序",
-                "value": 1
-            },
-            {
-                "name": "app",
-                "value": 1
-            },
-            {
-                "name": "五险",
-                "value": 1
-            },
-            {
-                "name": "一金",
-                "value": 1
-            },
-            {
-                "name": "双休",
-                "value": 3
-            },
-            {
-                "name": "新",
-                "value": 5
-            },
-            {
-                "name": "媒体",
-                "value": 4
-            },
-            {
-                "name": "C",
-                "value": 1
-            },
-            {
-                "name": "J10043",
-                "value": 1
-            },
-            {
-                "name": "研发",
-                "value": 9
-            },
-            {
-                "name": "阿语",
-                "value": 2
-            },
-            {
-                "name": "Engineer",
-                "value": 1
-            },
-            {
-                "name": "视频",
-                "value": 4
-            },
-            {
-                "name": "综合",
-                "value": 1
-            },
-            {
-                "name": "管理",
-                "value": 5
-            },
-            {
-                "name": "岗",
-                "value": 5
-            },
-            {
-                "name": "J10275",
-                "value": 1
-            },
-            {
-                "name": "本地化",
-                "value": 1
-            },
-            {
-                "name": "负责人",
-                "value": 4
-            },
-            {
-                "name": "Web",
-                "value": 1
-            },
-            {
-                "name": "MJ000949",
-                "value": 1
-            },
-            {
-                "name": "数字化",
-                "value": 1
-            },
-            {
-                "name": "交付",
-                "value": 2
-            },
-            {
-                "name": "UI",
-                "value": 3
-            },
-            {
-                "name": "能力",
-                "value": 1
-            },
-            {
-                "name": "J10894",
-                "value": 1
-            },
-            {
-                "name": "bi",
-                "value": 2
-            },
-            {
-                "name": "黑盒",
-                "value": 1
-            },
-            {
-                "name": "MJ005703",
-                "value": 1
-            },
-            {
-                "name": "网络",
-                "value": 3
-            },
-            {
-                "name": "信息安全",
-                "value": 1
-            },
-            {
-                "name": "服务",
-                "value": 1
-            },
-            {
-                "name": "语音",
-                "value": 1
-            },
-            {
-                "name": "聊天",
-                "value": 1
-            },
-            {
-                "name": "平面",
-                "value": 2
-            },
-            {
-                "name": "iOS",
-                "value": 3
-            },
-            {
-                "name": "J11714",
-                "value": 1
-            },
-            {
-                "name": "专家",
-                "value": 7
-            },
-            {
-                "name": "仓储",
-                "value": 3
-            },
-            {
-                "name": "客户经理",
-                "value": 3
-            },
-            {
-                "name": "品牌",
-                "value": 2
-            },
-            {
-                "name": "公关",
-                "value": 1
-            },
-            {
-                "name": "用户",
-                "value": 6
-            },
-            {
-                "name": "ZNXT",
-                "value": 3
-            },
-            {
-                "name": "培训",
-                "value": 3
-            },
-            {
-                "name": "推广",
-                "value": 5
-            },
-            {
-                "name": "渠道",
-                "value": 1
-            },
-            {
-                "name": "网络安全",
-                "value": 1
-            },
-            {
-                "name": "市场",
-                "value": 5
-            },
-            {
-                "name": "仓",
-                "value": 2
-            },
-            {
-                "name": "区域",
-                "value": 3
-            },
-            {
-                "name": "物联",
-                "value": 1
-            },
-            {
-                "name": "感知",
-                "value": 1
-            },
-            {
-                "name": "u3d",
-                "value": 2
-            },
-            {
-                "name": "虚拟",
-                "value": 1
-            },
-            {
-                "name": "etl",
-                "value": 1
-            },
-            {
-                "name": "软件",
-                "value": 2
-            },
-            {
-                "name": "项目",
-                "value": 4
-            },
-            {
-                "name": "动作",
-                "value": 2
-            },
-            {
-                "name": "体验",
-                "value": 1
-            },
-            {
-                "name": "测评",
-                "value": 1
-            },
-            {
-                "name": "品质",
-                "value": 1
-            },
-            {
-                "name": "中高级",
-                "value": 3
-            },
-            {
-                "name": "场景",
-                "value": 6
-            },
-            {
-                "name": "原",
-                "value": 4
-            },
-            {
-                "name": "画师",
-                "value": 4
-            },
-            {
-                "name": "tl",
-                "value": 1
-            },
-            {
-                "name": "渗透",
-                "value": 1
-            },
-            {
-                "name": "初级",
-                "value": 2
-            },
-            {
-                "name": "佛山",
-                "value": 2
-            },
-            {
-                "name": "播放器",
-                "value": 1
-            },
-            {
-                "name": "框架",
-                "value": 1
-            },
-            {
-                "name": "品类",
-                "value": 1
-            },
-            {
-                "name": "商务代表",
-                "value": 1
-            },
-            {
-                "name": "慢病",
-                "value": 1
-            },
-            {
-                "name": "招聘",
-                "value": 2
-            },
-            {
-                "name": "互联网",
-                "value": 3
-            },
-            {
-                "name": "金融",
-                "value": 1
-            },
-            {
-                "name": "电商",
-                "value": 6
-            },
-            {
-                "name": "华南",
-                "value": 1
-            },
-            {
-                "name": "事业部",
-                "value": 1
-            },
-            {
-                "name": "酷狗",
-                "value": 1
-            },
-            {
-                "name": "商城",
-                "value": 1
-            },
-            {
-                "name": "总账会计",
-                "value": 2
-            },
-            {
-                "name": "税务",
-                "value": 2
-            },
-            {
-                "name": "J10050",
-                "value": 1
-            },
-            {
-                "name": "Python",
-                "value": 1
-            },
-            {
-                "name": "MJ005928",
-                "value": 1
-            },
-            {
-                "name": "零售",
-                "value": 1
-            },
-            {
-                "name": "总经办",
-                "value": 1
-            },
-            {
-                "name": "系统",
-                "value": 7
-            },
-            {
-                "name": "需求",
-                "value": 2
-            },
-            {
-                "name": "分析师",
-                "value": 4
-            },
-            {
-                "name": "项目管理",
-                "value": 3
-            },
-            {
-                "name": "编辑",
-                "value": 1
-            },
-            {
-                "name": "八字",
-                "value": 1
-            },
-            {
-                "name": "塔罗",
-                "value": 1
-            },
-            {
-                "name": "希音",
-                "value": 1
-            },
-            {
-                "name": "懂车帝",
-                "value": 1
-            },
-            {
-                "name": "广告投放",
-                "value": 3
-            },
-            {
-                "name": "SPBU",
-                "value": 2
-            },
-            {
-                "name": "懒人",
-                "value": 1
-            },
-            {
-                "name": "直播",
-                "value": 6
-            },
-            {
-                "name": "PHP",
-                "value": 1
-            },
-            {
-                "name": "hyperf",
-                "value": 1
-            },
-            {
-                "name": "经验",
-                "value": 1
-            },
-            {
-                "name": "优先",
-                "value": 1
-            },
-            {
-                "name": "flutter",
-                "value": 1
-            },
-            {
-                "name": "亚马逊",
-                "value": 1
-            },
-            {
-                "name": "日薪",
-                "value": 1
-            },
-            {
-                "name": "600",
-                "value": 1
-            },
-            {
-                "name": "滴滴",
-                "value": 1
-            },
-            {
-                "name": "网约车",
-                "value": 1
-            },
-            {
-                "name": "司机",
-                "value": 1
-            },
-            {
-                "name": "数据库",
-                "value": 1
-            },
-            {
-                "name": "数仓",
-                "value": 1
-            },
-            {
-                "name": "置业",
-                "value": 1
-            },
-            {
-                "name": "Native",
-                "value": 1
-            },
-            {
-                "name": "办公室",
-                "value": 1
-            },
-            {
-                "name": "文员",
-                "value": 1
-            },
-            {
-                "name": "reacr",
-                "value": 1
-            },
-            {
-                "name": "平面设计",
-                "value": 1
-            },
-            {
-                "name": "PTBU",
-                "value": 2
-            },
-            {
-                "name": "会员",
-                "value": 1
-            },
-            {
-                "name": "曲库",
-                "value": 1
-            },
-            {
-                "name": "美工设计",
-                "value": 1
-            },
-            {
-                "name": "增长",
-                "value": 3
-            },
-            {
-                "name": "人事行政",
-                "value": 1
-            },
-            {
-                "name": "RPA",
-                "value": 1
-            },
-            {
-                "name": "人事",
-                "value": 5
-            },
-            {
-                "name": "Senior",
-                "value": 1
-            },
-            {
-                "name": "H4903",
-                "value": 1
-            },
-            {
-                "name": "员工",
-                "value": 1
-            },
-            {
-                "name": "关系",
-                "value": 1
-            },
-            {
-                "name": "工具",
-                "value": 2
-            },
-            {
-                "name": "计算",
-                "value": 1
-            },
-            {
-                "name": "物流",
-                "value": 1
-            },
-            {
-                "name": "门户",
-                "value": 1
-            },
-            {
-                "name": "文案",
-                "value": 2
-            },
-            {
-                "name": "avg",
-                "value": 1
-            },
-            {
-                "name": "演出",
-                "value": 1
-            },
-            {
-                "name": "Account",
-                "value": 1
-            },
-            {
-                "name": "Manager",
-                "value": 1
-            },
-            {
-                "name": "No.003",
-                "value": 1
-            },
-            {
-                "name": "合规",
-                "value": 1
-            },
-            {
-                "name": "隐私",
-                "value": 1
-            },
-            {
-                "name": "艺人",
-                "value": 2
-            },
-            {
-                "name": "合作",
-                "value": 1
-            },
-            {
-                "name": "独立",
-                "value": 1
-            },
-            {
-                "name": "站",
-                "value": 1
-            },
-            {
-                "name": "电影",
-                "value": 1
-            },
-            {
-                "name": "票务",
-                "value": 1
-            },
-            {
-                "name": "power",
-                "value": 1
-            },
-            {
-                "name": "学徒",
-                "value": 1
-            },
-            {
-                "name": "制作",
-                "value": 1
-            },
-            {
-                "name": "架构师",
-                "value": 3
-            },
-            {
-                "name": "淘宝",
-                "value": 2
-            },
-            {
-                "name": "中控",
-                "value": 1
-            },
-            {
-                "name": "视频剪辑",
-                "value": 1
-            },
-            {
-                "name": "中",
-                "value": 2
-            },
-            {
-                "name": "台",
-                "value": 2
-            },
-            {
-                "name": "中心",
-                "value": 1
-            },
-            {
-                "name": "社交",
-                "value": 2
-            },
-            {
-                "name": "角色",
-                "value": 2
-            },
-            {
-                "name": "MJ005620",
-                "value": 1
-            },
-            {
-                "name": "交互",
-                "value": 1
-            },
-            {
-                "name": "软件开发",
-                "value": 1
-            },
-            {
-                "name": "GPU",
-                "value": 1
-            },
-            {
-                "name": "虚拟化",
-                "value": 1
-            },
-            {
-                "name": "2711",
-                "value": 1
-            },
-            {
-                "name": "h5",
-                "value": 1
-            },
-            {
-                "name": "营销",
-                "value": 2
-            },
-            {
-                "name": "base",
-                "value": 1
-            },
-            {
-                "name": "数据仓库",
-                "value": 1
-            },
-            {
-                "name": "slg",
-                "value": 1
-            },
-            {
-                "name": "高投",
-                "value": 1
-            },
-            {
-                "name": "E2617",
-                "value": 1
-            },
-            {
-                "name": "MJ000797",
-                "value": 1
-            },
-            {
-                "name": "creator",
-                "value": 1
-            },
-            {
-                "name": "主题",
-                "value": 1
-            },
-            {
-                "name": "MJ005743",
-                "value": 1
-            },
-            {
-                "name": "嵌入式",
-                "value": 1
-            },
-            {
-                "name": "硬件",
-                "value": 1
-            },
-            {
-                "name": "服务器端",
-                "value": 1
-            },
-            {
-                "name": "C++",
-                "value": 2
-            },
-            {
-                "name": "2d",
-                "value": 1
-            },
-            {
-                "name": "特效",
-                "value": 1
-            },
-            {
-                "name": "线下",
-                "value": 1
-            },
-            {
-                "name": "native",
-                "value": 1
-            },
-            {
-                "name": "香港",
-                "value": 1
-            },
-            {
-                "name": "办公",
-                "value": 1
-            },
-            {
-                "name": "数据挖掘",
-                "value": 1
-            },
-            {
-                "name": "MJ000203",
-                "value": 1
-            },
-            {
-                "name": "组长",
-                "value": 1
-            },
-            {
-                "name": "中国移动",
-                "value": 1
-            },
-            {
-                "name": "云盘",
-                "value": 1
-            },
-            {
-                "name": "客户端程序",
-                "value": 1
-            },
-            {
-                "name": "员",
-                "value": 1
-            },
-            {
-                "name": "Unity",
-                "value": 1
-            },
-            {
-                "name": "艺术",
-                "value": 1
-            },
-            {
-                "name": "BD",
-                "value": 1
-            },
-            {
-                "name": "线上",
-                "value": 1
-            },
-            {
-                "name": "ue4",
-                "value": 1
-            },
-            {
-                "name": "J23353",
-                "value": 1
-            },
-            {
-                "name": "薪酬",
-                "value": 1
-            },
-            {
-                "name": "采购",
-                "value": 1
-            },
-            {
-                "name": "支付",
-                "value": 1
-            },
-            {
-                "name": "集群",
-                "value": 1
-            },
-            {
-                "name": "hrbp",
-                "value": 1
-            },
-            {
-                "name": "ios",
-                "value": 1
-            },
-            {
-                "name": "sdk",
-                "value": 1
-            },
-            {
-                "name": "接入",
-                "value": 1
-            },
-            {
-                "name": "MJ005673",
-                "value": 1
-            },
-            {
-                "name": "南区",
-                "value": 1
-            },
-            {
-                "name": "android",
-                "value": 2
-            },
-            {
-                "name": "活动",
-                "value": 1
-            },
-            {
-                "name": "全栈",
-                "value": 1
-            },
-            {
-                "name": "出纳",
-                "value": 1
-            },
-            {
-                "name": "E5XP",
-                "value": 1
-            },
-            {
-                "name": "PM",
-                "value": 1
-            },
-            {
-                "name": "二次元",
-                "value": 1
-            },
-            {
-                "name": "Android",
-                "value": 2
-            },
-            {
-                "name": "Developer",
-                "value": 1
-            },
-            {
-                "name": "通话",
-                "value": 1
-            },
-            {
-                "name": "团队",
-                "value": 1
-            },
-            {
-                "name": "可小白",
-                "value": 1
-            },
-            {
-                "name": "一带",
-                "value": 1
-            },
-            {
-                "name": "产研",
-                "value": 1
-            },
-            {
-                "name": "实习生",
-                "value": 2
-            },
-            {
-                "name": "MJ004268",
-                "value": 1
-            },
-            {
-                "name": "U9P",
-                "value": 1
-            },
-            {
-                "name": "分析",
-                "value": 1
-            },
-            {
-                "name": "柜面",
-                "value": 1
-            },
-            {
-                "name": "超柜",
-                "value": 1
-            },
-            {
-                "name": "产品策划",
-                "value": 1
-            },
-            {
-                "name": "融资",
-                "value": 1
-            },
-            {
-                "name": "流程",
-                "value": 1
-            },
-            {
-                "name": "高级顾问",
-                "value": 1
-            },
-            {
-                "name": "变革",
-                "value": 1
-            },
-            {
-                "name": "QGKL",
-                "value": 1
-            },
-            {
-                "name": "MJ004261",
-                "value": 1
-            },
-            {
-                "name": "宣发",
-                "value": 1
-            },
-            {
-                "name": "执行",
-                "value": 1
-            },
-            {
-                "name": "主策",
-                "value": 1
-            },
-            {
-                "name": "mmorpg",
-                "value": 1
-            },
-            {
-                "name": "5g",
-                "value": 1
-            },
-            {
-                "name": "核心网",
-                "value": 1
-            },
-            {
-                "name": "主程",
-                "value": 1
-            },
-            {
-                "name": "配餐",
-                "value": 1
-            },
-            {
-                "name": "南沙",
-                "value": 1
-            },
-            {
-                "name": "区",
-                "value": 1
-            },
-            {
-                "name": "驻点",
-                "value": 1
-            },
-            {
-                "name": "短",
-                "value": 1
-            },
-            {
-                "name": "编导",
-                "value": 2
-            },
-            {
-                "name": "美妆",
-                "value": 1
-            },
-            {
-                "name": "产品开发",
-                "value": 1
-            },
-            {
-                "name": "cps",
-                "value": 1
-            },
-            {
-                "name": "丽人",
-                "value": 1
-            },
-            {
-                "name": "小组",
-                "value": 1
-            },
-            {
-                "name": "leader",
-                "value": 1
-            },
-            {
-                "name": "童装",
-                "value": 1
-            },
-            {
-                "name": "教练",
-                "value": 1
-            },
-            {
-                "name": "陪",
-                "value": 1
-            },
-            {
-                "name": "玩",
-                "value": 1
-            },
-            {
-                "name": "周边",
-                "value": 1
-            },
-            {
-                "name": "动画",
-                "value": 1
-            },
-            {
-                "name": "投资",
-                "value": 1
-            },
-            {
-                "name": "公会",
-                "value": 1
-            },
-            {
-                "name": "MJ004255",
-                "value": 1
-            },
-            {
-                "name": "2694",
-                "value": 1
-            },
-            {
-                "name": "MJ000299",
-                "value": 1
-            },
-            {
-                "name": "MJ000368",
-                "value": 1
-            },
-            {
-                "name": "权益",
-                "value": 1
-            },
-            {
-                "name": "软件测试",
-                "value": 1
-            },
-            {
-                "name": "主播",
-                "value": 1
-            },
-            {
-                "name": "系统集成",
-                "value": 1
-            },
-            {
-                "name": "AD",
-                "value": 1
-            },
-            {
-                "name": "自动化",
-                "value": 1
-            },
-            {
-                "name": "3D",
-                "value": 1
-            },
-            {
-                "name": "MJ001176",
-                "value": 1
-            },
-            {
-                "name": "营收",
-                "value": 1
-            },
-            {
-                "name": "MJ004246",
-                "value": 1
-            },
-            {
-                "name": "风控",
-                "value": 1
-            },
-            {
-                "name": "日语",
-                "value": 1
-            },
-            {
-                "name": "业务",
-                "value": 2
-            },
-            {
-                "name": "tiktok",
-                "value": 1
-            },
-            {
-                "name": "BP",
-                "value": 1
-            },
-            {
-                "name": "GO",
-                "value": 1
-            },
-            {
-                "name": "后台",
-                "value": 1
-            }
-        ],
-        "feature": [
-            {
-                "name": "朝九晚",
-                "value": 9
-            },
-            {
-                "name": "周末",
-                "value": 40
-            },
-            {
-                "name": "双休",
-                "value": 93
-            },
-            {
-                "name": "调薪",
-                "value": 3
-            },
-            {
-                "name": "机制",
-                "value": 4
-            },
-            {
-                "name": "物",
-                "value": 1
-            },
-            {
-                "name": "联网",
-                "value": 1
-            },
-            {
-                "name": "数据",
-                "value": 3
-            },
-            {
-                "name": "人工智能",
-                "value": 2
-            },
-            {
-                "name": "方向",
-                "value": 2
-            },
-            {
-                "name": "商务",
-                "value": 1
-            },
-            {
-                "name": "经理",
-                "value": 2
-            },
-            {
-                "name": "培养",
-                "value": 1
-            },
-            {
-                "name": "工作",
-                "value": 17
-            },
-            {
-                "name": "轻松",
-                "value": 4
-            },
-            {
-                "name": "弹性",
-                "value": 16
-            },
-            {
-                "name": "办公",
-                "value": 9
-            },
-            {
-                "name": "五险",
-                "value": 60
-            },
-            {
-                "name": "一金",
-                "value": 109
-            },
-            {
-                "name": "六险",
-                "value": 40
-            },
-            {
-                "name": " ",
-                "value": 213
-            },
-            {
-                "name": "带薪",
-                "value": 23
-            },
-            {
-                "name": "年",
-                "value": 28
-            },
-            {
-                "name": "假",
-                "value": 25
-            },
-            {
-                "name": "团队",
-                "value": 49
-            },
-            {
-                "name": "氛围",
-                "value": 48
-            },
-            {
-                "name": "年度",
-                "value": 13
-            },
-            {
-                "name": "体检",
-                "value": 17
-            },
-            {
-                "name": "激励",
-                "value": 2
-            },
-            {
-                "name": "包餐",
-                "value": 5
-            },
-            {
-                "name": "晋升",
-                "value": 19
-            },
-            {
-                "name": "空间",
-                "value": 52
-            },
-            {
-                "name": "节日",
-                "value": 13
-            },
-            {
-                "name": "福利",
-                "value": 44
-            },
-            {
-                "name": "年终奖",
-                "value": 15
-            },
-            {
-                "name": "扁平化",
-                "value": 14
-            },
-            {
-                "name": "年轻",
-                "value": 4
-            },
-            {
-                "name": "头部",
-                "value": 2
-            },
-            {
-                "name": "厂商",
-                "value": 1
-            },
-            {
-                "name": "核心",
-                "value": 5
-            },
-            {
-                "name": "项目",
-                "value": 32
-            },
-            {
-                "name": "研发",
-                "value": 4
-            },
-            {
-                "name": "高",
-                "value": 5
-            },
-            {
-                "name": "投入",
-                "value": 2
-            },
-            {
-                "name": "通道",
-                "value": 2
-            },
-            {
-                "name": "法定",
-                "value": 2
-            },
-            {
-                "name": "假期",
-                "value": 3
-            },
-            {
-                "name": "前景",
-                "value": 4
-            },
-            {
-                "name": "上下班",
-                "value": 5
-            },
-            {
-                "name": "打卡",
-                "value": 6
-            },
-            {
-                "name": "餐补",
-                "value": 18
-            },
-            {
-                "name": "一年",
-                "value": 2
-            },
-            {
-                "name": "两次",
-                "value": 2
-            },
-            {
-                "name": "旅游",
-                "value": 3
-            },
-            {
-                "name": "大神",
-                "value": 2
-            },
-            {
-                "name": "公司",
-                "value": 5
-            },
-            {
-                "name": "成立",
-                "value": 1
-            },
-            {
-                "name": "20",
-                "value": 2
-            },
-            {
-                "name": "周年",
-                "value": 1
-            },
-            {
-                "name": "号",
-                "value": 1
-            },
-            {
-                "name": "发薪",
-                "value": 1
-            },
-            {
-                "name": "拖欠",
-                "value": 1
-            },
-            {
-                "name": "薪资",
-                "value": 7
-            },
-            {
-                "name": "Android",
-                "value": 1
-            },
-            {
-                "name": "客户端",
-                "value": 1
-            },
-            {
-                "name": "产品",
-                "value": 4
-            },
-            {
-                "name": "稳定",
-                "value": 7
-            },
-            {
-                "name": "平台",
-                "value": 41
-            },
-            {
-                "name": "收入",
-                "value": 2
-            },
-            {
-                "name": "自由",
-                "value": 4
-            },
-            {
-                "name": "学习",
-                "value": 3
-            },
-            {
-                "name": "成长",
-                "value": 8
-            },
-            {
-                "name": "人性化",
-                "value": 1
-            },
-            {
-                "name": "管理",
-                "value": 16
-            },
-            {
-                "name": "绩效奖金",
-                "value": 8
-            },
-            {
-                "name": "餐饮",
-                "value": 1
-            },
-            {
-                "name": "补贴",
-                "value": 4
-            },
-            {
-                "name": "免费",
-                "value": 12
-            },
-            {
-                "name": "咖啡",
-                "value": 7
-            },
-            {
-                "name": "健身房",
-                "value": 9
-            },
-            {
-                "name": "加班",
-                "value": 10
-            },
-            {
-                "name": "下午茶",
-                "value": 30
-            },
-            {
-                "name": "带薪休假",
-                "value": 7
-            },
-            {
-                "name": "险",
-                "value": 4
-            },
-            {
-                "name": "金",
-                "value": 3
-            },
-            {
-                "name": "福利待遇",
-                "value": 15
-            },
-            {
-                "name": "棒",
-                "value": 2
-            },
-            {
-                "name": "国企",
-                "value": 15
-            },
-            {
-                "name": "正编",
-                "value": 11
-            },
-            {
-                "name": "发展",
-                "value": 48
-            },
-            {
-                "name": "专业培训",
-                "value": 3
-            },
-            {
-                "name": "自有",
-                "value": 1
-            },
-            {
-                "name": "拍摄",
-                "value": 1
-            },
-            {
-                "name": "多劳多得",
-                "value": 2
-            },
-            {
-                "name": "优质",
-                "value": 2
-            },
-            {
-                "name": "数字",
-                "value": 3
-            },
-            {
-                "name": "营销",
-                "value": 1
-            },
-            {
-                "name": "全案",
-                "value": 1
-            },
-            {
-                "name": "代理",
-                "value": 1
-            },
-            {
-                "name": "发展前景",
-                "value": 18
-            },
-            {
-                "name": "地铁",
-                "value": 5
-            },
-            {
-                "name": "节假日",
-                "value": 3
-            },
-            {
-                "name": "补班",
-                "value": 1
-            },
-            {
-                "name": "升职",
-                "value": 1
-            },
-            {
-                "name": "机会",
-                "value": 5
-            },
-            {
-                "name": "少",
-                "value": 2
-            },
-            {
-                "name": "领导",
-                "value": 10
-            },
-            {
-                "name": "nice",
-                "value": 6
-            },
-            {
-                "name": "行业",
-                "value": 14
-            },
-            {
-                "name": "领先",
-                "value": 3
-            },
-            {
-                "name": "大牛",
-                "value": 4
-            },
-            {
-                "name": "带队",
-                "value": 2
-            },
-            {
-                "name": "客户",
-                "value": 1
-            },
-            {
-                "name": "销售",
-                "value": 1
-            },
-            {
-                "name": "盈利",
-                "value": 1
-            },
-            {
-                "name": "C",
-                "value": 1
-            },
-            {
-                "name": "轮",
-                "value": 2
-            },
-            {
-                "name": "融资",
-                "value": 1
-            },
-            {
-                "name": "排头兵",
-                "value": 1
-            },
-            {
-                "name": "成熟",
-                "value": 1
-            },
-            {
-                "name": "企业",
-                "value": 6
-            },
-            {
-                "name": "对接",
-                "value": 1
-            },
-            {
-                "name": "国外",
-                "value": 1
-            },
-            {
-                "name": "健身",
-                "value": 4
-            },
-            {
-                "name": "瑜伽",
-                "value": 4
-            },
-            {
-                "name": "比例",
-                "value": 2
-            },
-            {
-                "name": "分红",
-                "value": 4
-            },
-            {
-                "name": "包",
-                "value": 10
-            },
-            {
-                "name": "三餐",
-                "value": 14
-            },
-            {
-                "name": "加薪",
-                "value": 1
-            },
-            {
-                "name": "周边",
-                "value": 2
-            },
-            {
-                "name": "七险",
-                "value": 11
-            },
-            {
-                "name": "政务",
-                "value": 2
-            },
-            {
-                "name": "十晚",
-                "value": 1
-            },
-            {
-                "name": "业务",
-                "value": 5
-            },
-            {
-                "name": "稳",
-                "value": 2
-            },
-            {
-                "name": "餐补话",
-                "value": 1
-            },
-            {
-                "name": "补",
-                "value": 1
-            },
-            {
-                "name": "13",
-                "value": 10
-            },
-            {
-                "name": "薪",
-                "value": 10
-            },
-            {
-                "name": "运营",
-                "value": 1
-            },
-            {
-                "name": "时间",
-                "value": 2
-            },
-            {
-                "name": "入职",
-                "value": 4
-            },
-            {
-                "name": "享受",
-                "value": 1
-            },
-            {
-                "name": "10",
-                "value": 1
-            },
-            {
-                "name": "天年",
-                "value": 1
-            },
-            {
-                "name": "全勤奖",
-                "value": 5
-            },
-            {
-                "name": "年底",
-                "value": 15
-            },
-            {
-                "name": "双薪",
-                "value": 14
-            },
-            {
-                "name": "班车",
-                "value": 3
-            },
-            {
-                "name": "岗位",
-                "value": 5
-            },
-            {
-                "name": "高额",
-                "value": 1
-            },
-            {
-                "name": "奖金",
-                "value": 16
-            },
-            {
-                "name": "提成",
-                "value": 2
-            },
-            {
-                "name": "大厂",
-                "value": 6
-            },
-            {
-                "name": "居家",
-                "value": 1
-            },
-            {
-                "name": "方式",
-                "value": 1
-            },
-            {
-                "name": "提升",
-                "value": 1
-            },
-            {
-                "name": "综合",
-                "value": 1
-            },
-            {
-                "name": "能力",
-                "value": 2
-            },
-            {
-                "name": "评级",
-                "value": 1
-            },
-            {
-                "name": "奖",
-                "value": 4
-            },
-            {
-                "name": "央企",
-                "value": 2
-            },
-            {
-                "name": "绩效",
-                "value": 2
-            },
-            {
-                "name": "奖励",
-                "value": 1
-            },
-            {
-                "name": "领域",
-                "value": 1
-            },
-            {
-                "name": "独角兽",
-                "value": 4
-            },
-            {
-                "name": "年轻化",
-                "value": 6
-            },
-            {
-                "name": "全球化",
-                "value": 2
-            },
-            {
-                "name": "视野",
-                "value": 1
-            },
-            {
-                "name": "云集",
-                "value": 1
-            },
-            {
-                "name": "CBD",
-                "value": 2
-            },
-            {
-                "name": "豪华",
-                "value": 1
-            },
-            {
-                "name": "夜景",
-                "value": 1
-            },
-            {
-                "name": "四餐",
-                "value": 1
-            },
-            {
-                "name": "SCADA",
-                "value": 1
-            },
-            {
-                "name": "IOT",
-                "value": 1
-            },
-            {
-                "name": "用户量",
-                "value": 1
-            },
-            {
-                "name": "迭代",
-                "value": 2
-            },
-            {
-                "name": "环境",
-                "value": 8
-            },
-            {
-                "name": "丰厚",
-                "value": 5
-            },
-            {
-                "name": "佳",
-                "value": 3
-            },
-            {
-                "name": "出海",
-                "value": 1
-            },
-            {
-                "name": "电信",
-                "value": 1
-            },
-            {
-                "name": "编制",
-                "value": 1
-            },
-            {
-                "name": "季度",
-                "value": 5
-            },
-            {
-                "name": "基础",
-                "value": 1
-            },
-            {
-                "name": "网络",
-                "value": 1
-            },
-            {
-                "name": "技术",
-                "value": 4
-            },
-            {
-                "name": "高薪",
-                "value": 2
-            },
-            {
-                "name": "上班",
-                "value": 2
-            },
-            {
-                "name": "立足于",
-                "value": 1
-            },
-            {
-                "name": "科技",
-                "value": 2
-            },
-            {
-                "name": "26",
-                "value": 1
-            },
-            {
-                "name": "水果",
-                "value": 5
-            },
-            {
-                "name": "新",
-                "value": 3
-            },
-            {
-                "name": "活力",
-                "value": 1
-            },
-            {
-                "name": "年终",
-                "value": 1
-            },
-            {
-                "name": "完善",
-                "value": 4
-            },
-            {
-                "name": "培训",
-                "value": 5
-            },
-            {
-                "name": "活泼",
-                "value": 1
-            },
-            {
-                "name": "创业",
-                "value": 1
-            },
-            {
-                "name": "社群",
-                "value": 1
-            },
-            {
-                "name": "团购",
-                "value": 1
-            },
-            {
-                "name": "赛道",
-                "value": 1
-            },
-            {
-                "name": "互联网",
-                "value": 1
-            },
-            {
-                "name": "金融",
-                "value": 1
-            },
-            {
-                "name": "资深",
-                "value": 1
-            },
-            {
-                "name": "海外",
-                "value": 1
-            },
-            {
-                "name": "母婴",
-                "value": 1
-            },
-            {
-                "name": "领航",
-                "value": 1
-            },
-            {
-                "name": "年终奖金",
-                "value": 4
-            },
-            {
-                "name": "定期",
-                "value": 7
-            },
-            {
-                "name": "团建",
-                "value": 3
-            },
-            {
-                "name": "礼物",
-                "value": 2
-            },
-            {
-                "name": "学科",
-                "value": 1
-            },
-            {
-                "name": "交叉",
-                "value": 1
-            },
-            {
-                "name": "扁片化",
-                "value": 1
-            },
-            {
-                "name": "接触",
-                "value": 1
-            },
-            {
-                "name": "相关",
-                "value": 1
-            },
-            {
-                "name": "工会",
-                "value": 5
-            },
-            {
-                "name": "江景",
-                "value": 2
-            },
-            {
-                "name": "办公室",
-                "value": 2
-            },
-            {
-                "name": "友爱",
-                "value": 1
-            },
-            {
-                "name": "导师",
-                "value": 1
-            },
-            {
-                "name": "带教",
-                "value": 1
-            },
-            {
-                "name": "流量",
-                "value": 1
-            },
-            {
-                "name": "两餐",
-                "value": 2
-            },
-            {
-                "name": "主流",
-                "value": 1
-            },
-            {
-                "name": "flutter",
-                "value": 1
-            },
-            {
-                "name": "齐全",
-                "value": 4
-            },
-            {
-                "name": "安排",
-                "value": 1
-            },
-            {
-                "name": "业绩",
-                "value": 1
-            },
-            {
-                "name": "自主",
-                "value": 1
-            },
-            {
-                "name": "缴纳",
-                "value": 2
-            },
-            {
-                "name": "全额",
-                "value": 2
-            },
-            {
-                "name": "公积金",
-                "value": 2
-            },
-            {
-                "name": "12%",
-                "value": 1
-            },
-            {
-                "name": "资金雄厚",
-                "value": 1
-            },
-            {
-                "name": "社保",
-                "value": 2
-            },
-            {
-                "name": "重点项目",
-                "value": 1
-            },
-            {
-                "name": "员工",
-                "value": 1
-            },
-            {
-                "name": "饭堂",
-                "value": 1
-            },
-            {
-                "name": "宿舍",
-                "value": 1
-            },
-            {
-                "name": "接送",
-                "value": 1
-            },
-            {
-                "name": "室内",
-                "value": 1
-            },
-            {
-                "name": "冬暖夏凉",
-                "value": 1
-            },
-            {
-                "name": "广阔",
-                "value": 2
-            },
-            {
-                "name": "扁平",
-                "value": 6
-            },
-            {
-                "name": "上市公司",
-                "value": 3
-            },
-            {
-                "name": "创新",
-                "value": 1
-            },
-            {
-                "name": "协助",
-                "value": 1
-            },
-            {
-                "name": "办理",
-                "value": 1
-            },
-            {
-                "name": "广州",
-                "value": 1
-            },
-            {
-                "name": "入户",
-                "value": 1
-            },
-            {
-                "name": "工作制",
-                "value": 2
-            },
-            {
-                "name": "500",
-                "value": 2
-            },
-            {
-                "name": "强",
-                "value": 6
-            },
-            {
-                "name": "软件",
-                "value": 2
-            },
-            {
-                "name": "中心",
-                "value": 1
-            },
-            {
-                "name": "抗",
-                "value": 1
-            },
-            {
-                "name": "风险",
-                "value": 1
-            },
-            {
-                "name": "牛人",
-                "value": 1
-            },
-            {
-                "name": "求贤若渴",
-                "value": 1
-            },
-            {
-                "name": "全球",
-                "value": 1
-            },
-            {
-                "name": "二次元",
-                "value": 3
-            },
-            {
-                "name": "精品",
-                "value": 3
-            },
-            {
-                "name": "B",
-                "value": 1
-            },
-            {
-                "name": "端",
-                "value": 1
-            },
-            {
-                "name": "SaaS",
-                "value": 1
-            },
-            {
-                "name": "快速",
-                "value": 2
-            },
-            {
-                "name": "体量",
-                "value": 1
-            },
-            {
-                "name": "模块",
-                "value": 1
-            },
-            {
-                "name": "待遇",
-                "value": 4
-            },
-            {
-                "name": "竞争力",
-                "value": 1
-            },
-            {
-                "name": "期权",
-                "value": 2
-            },
-            {
-                "name": "世界",
-                "value": 1
-            },
-            {
-                "name": "自研",
-                "value": 2
-            },
-            {
-                "name": "引擎",
-                "value": 1
-            },
-            {
-                "name": "起飞",
-                "value": 1
-            },
-            {
-                "name": "每周",
-                "value": 1
-            },
-            {
-                "name": "下午",
-                "value": 1
-            },
-            {
-                "name": "撸",
-                "value": 1
-            },
-            {
-                "name": "猫",
-                "value": 1
-            },
-            {
-                "name": "零食",
-                "value": 4
-            },
-            {
-                "name": "游戏",
-                "value": 2
-            },
-            {
-                "name": "超大",
-                "value": 1
-            },
-            {
-                "name": "二金",
-                "value": 2
-            },
-            {
-                "name": "证券",
-                "value": 1
-            },
-            {
-                "name": "不补班",
-                "value": 1
-            },
-            {
-                "name": "蓝海",
-                "value": 1
-            },
-            {
-                "name": "市场",
-                "value": 1
-            },
-            {
-                "name": "薪酬",
-                "value": 3
-            },
-            {
-                "name": "优厚",
-                "value": 2
-            },
-            {
-                "name": "传媒",
-                "value": 1
-            },
-            {
-                "name": "龙头企业",
-                "value": 1
-            },
-            {
-                "name": "全新",
-                "value": 1
-            },
-            {
-                "name": "专业",
-                "value": 1
-            },
-            {
-                "name": "双周",
-                "value": 1
-            },
-            {
-                "name": "聚餐",
-                "value": 2
-            },
-            {
-                "name": "买",
-                "value": 1
-            },
-            {
-                "name": "商业",
-                "value": 1
-            },
-            {
-                "name": "实力",
-                "value": 4
-            },
-            {
-                "name": "月",
-                "value": 1
-            },
-            {
-                "name": "休",
-                "value": 1
-            },
-            {
-                "name": "两天",
-                "value": 1
-            },
-            {
-                "name": "住房补贴",
-                "value": 1
-            },
-            {
-                "name": "25",
-                "value": 1
-            },
-            {
-                "name": "天",
-                "value": 1
-            },
-            {
-                "name": "用户",
-                "value": 1
-            },
-            {
-                "name": "画像",
-                "value": 1
-            },
-            {
-                "name": "补充",
-                "value": 2
-            },
-            {
-                "name": "商业保险",
-                "value": 2
-            },
-            {
-                "name": "外企",
-                "value": 1
-            },
-            {
-                "name": "网易",
-                "value": 1
-            },
-            {
-                "name": "配套",
-                "value": 1
-            },
-            {
-                "name": "咖",
-                "value": 1
-            },
-            {
-                "name": "27",
-                "value": 1
-            },
-            {
-                "name": "历史",
-                "value": 1
-            },
-            {
-                "name": "稳健",
-                "value": 1
-            },
-            {
-                "name": "扎根",
-                "value": 1
-            },
-            {
-                "name": "持续",
-                "value": 1
-            },
-            {
-                "name": "14",
-                "value": 1
-            },
-            {
-                "name": "每日",
-                "value": 1
-            },
-            {
-                "name": "固定",
-                "value": 1
-            },
-            {
-                "name": "朝阳",
-                "value": 1
-            },
-            {
-                "name": "重视",
-                "value": 1
-            },
-            {
-                "name": "人才",
-                "value": 1
-            },
-            {
-                "name": "员工福利",
-                "value": 1
-            },
-            {
-                "name": "搞钱",
-                "value": 1
-            },
-            {
-                "name": "高潜",
-                "value": 1
-            },
-            {
-                "name": "提供",
-                "value": 1
-            },
-            {
-                "name": "住宿",
-                "value": 1
-            },
-            {
-                "name": "十年",
-                "value": 1
-            },
-            {
-                "name": "产",
-                "value": 1
-            },
-            {
-                "name": "工厂",
-                "value": 1
-            },
-            {
-                "name": "自创",
-                "value": 1
-            },
-            {
-                "name": "edie",
-                "value": 1
-            },
-            {
-                "name": "伊迪肖",
-                "value": 1
-            },
-            {
-                "name": "品牌",
-                "value": 1
-            },
-            {
-                "name": "淘店",
-                "value": 1
-            },
-            {
-                "name": "子女",
-                "value": 1
-            },
-            {
-                "name": "c",
-                "value": 1
-            },
-            {
-                "name": "医疗",
-                "value": 1
-            },
-            {
-                "name": "快乐",
-                "value": 1
-            },
-            {
-                "name": "亿级",
-                "value": 1
-            },
-            {
-                "name": "牛",
-                "value": 1
-            },
-            {
-                "name": "逼",
-                "value": 1
-            },
-            {
-                "name": "优",
-                "value": 1
-            },
-            {
-                "name": "国际化",
-                "value": 1
-            },
-            {
-                "name": "标杆",
-                "value": 1
-            },
-            {
-                "name": "每月",
-                "value": 1
-            },
-            {
-                "name": "活动",
-                "value": 1
-            },
-            {
-                "name": "考勤",
-                "value": 1
-            },
-            {
-                "name": "灵活",
-                "value": 1
-            },
-            {
-                "name": "slg",
-                "value": 1
-            },
-            {
-                "name": "高速",
-                "value": 1
-            },
-            {
-                "name": "假多",
-                "value": 1
-            },
-            {
-                "name": "气氛",
-                "value": 1
-            },
-            {
-                "name": "谱",
-                "value": 1
-            },
-            {
-                "name": "健全",
-                "value": 1
-            },
-            {
-                "name": "open",
-                "value": 1
-            },
-            {
-                "name": "一带",
-                "value": 1
-            },
-            {
-                "name": "一路",
-                "value": 1
-            },
-            {
-                "name": "中东",
-                "value": 1
-            },
-            {
-                "name": "优雅",
-                "value": 1
-            },
-            {
-                "name": "不定期",
-                "value": 1
-            },
-            {
-                "name": "上市",
-                "value": 1
-            },
-            {
-                "name": "风控",
-                "value": 1
-            },
-            {
-                "name": "带领",
-                "value": 1
-            },
-            {
-                "name": "早九晚",
                 "value": 1
             }
         ]

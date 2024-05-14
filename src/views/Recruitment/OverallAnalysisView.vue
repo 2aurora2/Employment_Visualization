@@ -160,7 +160,7 @@ const showBar = (sites, mean) => {
             type: 'slider',
             show: true,
             startValue: '北京',
-            endValue: '哈尔滨'
+            endValue: '海口'
           },
           {
             type: 'inside'

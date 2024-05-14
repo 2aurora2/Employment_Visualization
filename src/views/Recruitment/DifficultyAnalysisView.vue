@@ -87,8 +87,8 @@ onMounted(() => {
       {
         type: 'slider',
         show: true,
-        startValue: '南京',
-        endValue: '乌鲁木齐'
+        startValue: '北京',
+        endValue: '海口'
       },
       {
         type: 'inside'

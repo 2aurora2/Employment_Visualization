@@ -24,7 +24,7 @@ import {onMounted, ref, watch} from "vue";
 import * as echarts from "echarts";
 import JobData from '@/assets/data/job_data.json'
 
-const curBigCate = ref('后端开发')
+const curBigCate = ref('教师')
 
 const cateWatch = watch(curBigCate, (newVal, oldVal) => {
   SalaryNumber()
@@ -51,11 +51,11 @@ onMounted(() => {
     option.value = cate;
     dom.add(option);
   })
-
   SalaryNumber()
 })
 
 const SalaryNumber = () => {
+  console.log(curBigCate.value)
   const bigObj = JobData[curBigCate.value]  // 大类对象
   const smlObj = Object.keys(bigObj)        // 小类名称
 
@@ -72,9 +72,6 @@ const SalaryNumber = () => {
     need[cate]['中位数'] = parseInt(bigObj[cate]['中位数'].replace("¥", "").replace(",", ""));
     need[cate]['平均数'] = parseInt(bigObj[cate]['平均数'].replace("¥", "").replace(",", ""));
   })
-
-  console.log(curBigCate.value, JSON.stringify(need))
-
 
   const dom = echarts.init(document.getElementById('main'))
   dom.setOption({
