@@ -35,7 +35,7 @@ import "echarts-wordcloud"
 const keyword = JSON.parse(JSON.stringify(Keyword))
 const cityArray = Object.keys(keyword)
 
-const curCity = ref('太原')
+const curCity = ref('广州')
 const curType = ref(0)
 
 const cityWatch = watch(curCity, (newVal, oldVal) => {
