@@ -5,9 +5,9 @@ import {ref} from "vue";
 let httpUrl = new URL("https://spark-api.xf-yun.com/v3.5/chat");
 let modelDomain;
 // APPID，APISecret，APIKey在https://console.xfyun.cn/services/cbm这里获取
-const APPID = 'f0ec4df0'
-const API_SECRET = 'ZjQ1ZDUzOGRiNTBkMzM2NGFhODZlYzZk'
-const API_KEY = '77d8a5991a9c306441ccf752ed05e1ab'
+const APPID =
+const API_SECRET =
+const API_KEY =
 
 const userStore = useUserStore()
 const messageList = ref(userStore.chatMessage)
