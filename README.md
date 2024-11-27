@@ -12,3 +12,5 @@ npm run dev	# 启动项目
 ```
 
 2. 对于其中的大模型对话本项目采用星火大模型API，如需使用请自行前往获取对应的 APPID、API_SECRET、API_KEY，并将其填往 src/utils/common/SparkDeskApiUtil.js 文件，获取方式为：https://console.xfyun.cn/services/cbm
+
+3. [在线地址](https://2aurora2.github.io/Employment_Visualization/?#/recruitment-info/job-recruitment-overall-analysis)
